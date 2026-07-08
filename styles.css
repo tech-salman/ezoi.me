@@ -1,0 +1,166 @@
+:root {
+  --primary: #23258d;
+  --text: #40444d;
+  --bg: #efefef;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page {
+  max-width: 1400px;
+  margin: 42px auto;
+  background: var(--white);
+  padding: 32px 40px 48px;
+}
+
+.top-banner {
+  background: var(--primary);
+  color: var(--white);
+  padding: 22px 18px;
+  margin-bottom: 26px;
+}
+
+.top-banner h1 {
+  margin: 0;
+  font-size: clamp(1.9rem, 3vw, 3rem);
+  letter-spacing: 0.5px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  gap: 28px;
+}
+
+.left-column,
+.right-column {
+  min-width: 0;
+}
+
+.profile-image-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 245px;
+  height: 275px;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+.contact {
+  margin: 16px 0 14px;
+  border-bottom: 3px solid var(--primary);
+  padding-bottom: 10px;
+}
+
+.contact p {
+  margin: 8px 0;
+  font-size: clamp(1.15rem, 2vw, 1.05rem);
+  line-height: 1.35;
+}
+
+.section {
+  margin-bottom: 18px;
+}
+
+.section h2 {
+  margin: 0 0 10px;
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: clamp(1.35rem, 2vw, 2.1rem);
+  border-bottom: 3px solid var(--primary);
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+
+.icon {
+  background: var(--primary);
+  color: var(--white);
+  border-radius: 9px;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+}
+
+.arrow-list,
+.details-list,
+.experience-item ul,
+.section ul {
+  margin: 0;
+  padding-left: 30px;
+}
+
+.arrow-list li {
+  list-style: "→  ";
+  margin: 8px 0;
+  font-size: clamp(1rem, 2vw, 1.05rem);
+}
+
+.details-list li {
+  list-style: none;
+  margin: 8px 0;
+  font-size: clamp(1rem, 2vw, 1.05rem);
+}
+
+.right-column .section p,
+.experience-item li {
+  font-size: clamp(1rem, 2vw, 1.05rem);
+  line-height: 1.45;
+}
+
+.experience-item {
+  margin-bottom: 12px;
+}
+
+.experience-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.experience-head h3 {
+  margin: 0;
+  color: #2f3747;
+  font-size: clamp(1.25rem, 2.4vw, 1.65rem);
+}
+
+.company {
+  margin: 4px 0 8px;
+  font-size: clamp(1rem, 2vw, 1.15rem);
+}
+
+@media (max-width: 980px) {
+  .page {
+    margin: 0;
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-image {
+    width: 210px;
+    height: 240px;
+  }
+}
