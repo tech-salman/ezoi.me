@@ -12,6 +12,27 @@
       <header class="top-banner">
         <h1>MUHAMMAD SALMAN NADEEM</h1>
         <p>Web/App Developer • Cybersecurity • Cloud</p>
+        <div class="quick-nav">
+          <label for="section-jump">Quick Jump</label>
+          <select id="section-jump" class="section-dropdown">
+            <option value="">Select section</option>
+            <option value="skills">Skills</option>
+            <option value="professional-summary">Professional Summary</option>
+            <option value="experience">Experience</option>
+            <option value="projects">Projects</option>
+            <option value="education">Education</option>
+            <option value="social-links">Social Links</option>
+            <option value="about">About</option>
+          </select>
+          <div class="scroll-buttons">
+            <a class="scroll-btn" href="#professional-summary">Summary</a>
+            <a class="scroll-btn" href="#experience">Experience</a>
+            <a class="scroll-btn" href="#projects">Projects</a>
+            <a class="scroll-btn" href="#education">Education</a>
+            <a class="scroll-btn" href="#social-links">Links</a>
+            <a class="scroll-btn" href="#about">About</a>
+          </div>
+        </div>
       </header>
 
       <section class="content">
@@ -19,7 +40,7 @@
           <div class="panel profile-panel">
             <div class="profile-image-wrap">
               <img
-                src="https://github.com/user-attachments/assets/191efd58-dcd8-4699-87fb-ebc81bafa154"
+                src="https://github.com/user-attachments/assets/3c0701ba-51b9-4218-abe0-32da947742bc"
                 alt="Muhammad Salman Nadeem"
                 class="profile-image"
               />
@@ -31,7 +52,7 @@
             </div>
           </div>
 
-          <section class="panel section">
+          <section class="panel section" id="skills">
             <h2><span class="icon">✈</span> SKILLS</h2>
             <ul class="arrow-list">
               <li>Web / App Development</li>
@@ -55,7 +76,7 @@
         </aside>
 
         <section class="right-column">
-          <section class="panel section">
+          <section class="panel section" id="professional-summary">
             <h2><span class="icon">✥</span> PROFESSIONAL SUMMARY</h2>
             <p>
               BS Information Technology student (6th Semester) with practical
@@ -67,7 +88,7 @@
             </p>
           </section>
 
-          <section class="panel section">
+          <section class="panel section" id="experience">
             <h2><span class="icon">💼</span> EXPERIENCE</h2>
             <article class="experience-item">
               <div class="experience-head">
@@ -108,7 +129,7 @@
             </ul>
           </section>
 
-          <section class="panel section">
+          <section class="panel section" id="projects">
             <h2><span class="icon">🧩</span> PROJECTS</h2>
             <article class="project-item">
               <h3>Full-Stack Website Development Project</h3>
@@ -128,7 +149,7 @@
             </article>
           </section>
 
-          <section class="panel section">
+          <section class="panel section" id="education">
             <h2><span class="icon">🎓</span> EDUCATION</h2>
             <ul class="education-list">
               <li>
@@ -160,7 +181,7 @@
             </ul>
           </section>
 
-          <section class="panel section">
+          <section class="panel section" id="social-links">
             <h2><span class="icon">🔗</span> SOCIAL LINKS</h2>
             <ul class="links-list">
               <li>
@@ -178,7 +199,7 @@
             </ul>
           </section>
 
-          <section class="panel section">
+          <section class="panel section" id="about">
             <h2><span class="icon">⭐</span> ABOUT</h2>
             <p>
               Adaptive and detail-oriented, focused on leveraging technical skills
@@ -204,5 +225,15 @@
         </section>
       </section>
     </main>
+    <script>
+      const sectionJump = document.getElementById("section-jump");
+      sectionJump?.addEventListener("change", (event) => {
+        const id = event.target.value;
+        if (!id) return;
+        const target = document.getElementById(id);
+        if (!target) return;
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    </script>
   </body>
 </html>

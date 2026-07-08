@@ -13,6 +13,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -71,6 +75,51 @@ body {
   margin: 8px 0 0;
   color: #d7e3ff;
   font-size: 0.95rem;
+}
+
+.quick-nav {
+  margin-top: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+.quick-nav label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.section-dropdown {
+  width: min(100%, 360px);
+  padding: 9px 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(186, 199, 255, 0.55);
+  background: #0f1857;
+  color: #eef4ff;
+}
+
+.scroll-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.scroll-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 12px;
+  border-radius: 999px;
+  border: 1px solid rgba(163, 185, 255, 0.55);
+  background: rgba(255, 255, 255, 0.08);
+  color: #e8f0ff;
+  font-size: 0.86rem;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.scroll-btn:hover {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.16);
+  transform: translateY(-1px);
 }
 
 .content {
@@ -245,5 +294,53 @@ a:hover {
   .profile-image {
     width: 160px;
     height: 188px;
+  }
+}
+
+@media (max-width: 700px) {
+  .page {
+    padding: 12px;
+  }
+
+  .top-banner {
+    padding: 14px;
+  }
+
+  .top-banner p {
+    font-size: 0.9rem;
+  }
+
+  .section-dropdown {
+    width: 100%;
+  }
+
+  .panel {
+    padding: 12px;
+  }
+
+  p,
+  ul,
+  li {
+    font-size: 0.92rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-banner h1 {
+    letter-spacing: 0.2px;
+  }
+
+  .scroll-buttons {
+    gap: 6px;
+  }
+
+  .scroll-btn {
+    font-size: 0.82rem;
+    padding: 6px 10px;
+  }
+
+  .profile-image {
+    width: 145px;
+    height: 172px;
   }
 }
