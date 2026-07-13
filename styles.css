@@ -289,6 +289,26 @@ li {
   color: #f0f6ff;
 }
 
+.links-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 0;
+}
+
+.links-list li {
+  padding-left: 0;
+  margin: 0;
+}
+
+.links-list li::before {
+  content: none;
+}
+
+.links-list .social-link-btn {
+  margin-top: 0;
+}
+
 .experience-item,
 .project-item {
   margin-bottom: 10px;
