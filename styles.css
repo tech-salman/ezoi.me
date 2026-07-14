@@ -32,6 +32,7 @@ body {
 .menu-toggle {
   position: fixed;
   top: 14px;
+  left: auto;
   right: 14px;
   z-index: 30;
   width: 44px;
@@ -429,6 +430,7 @@ a:hover {
 @media (max-width: 700px) {
   .menu-toggle {
     top: 10px;
+    left: auto;
     right: 10px;
   }
 
