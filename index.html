@@ -98,6 +98,21 @@
   </head>
   <body>
     <div class="bg-grid" aria-hidden="true"></div>
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="sidebar-menu"
+    >
+      ☰
+    </button>
+    <div class="menu-overlay" hidden></div>
+    <aside class="sidebar-menu" id="sidebar-menu" aria-hidden="true">
+      <nav class="sidebar-nav" aria-label="Sidebar">
+        <a href="/blogs/">Blogs</a>
+      </nav>
+    </aside>
     <main class="page">
       <header class="top-banner">
         <h1>MUHAMMAD SALMAN NADEEM</h1>
@@ -332,5 +347,39 @@
         </section>
       </section>
     </main>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const sidebarMenu = document.getElementById("sidebar-menu");
+      const menuOverlay = document.querySelector(".menu-overlay");
+
+      const closeMenu = () => {
+        sidebarMenu.classList.remove("is-open");
+        menuOverlay.hidden = true;
+        menuToggle.setAttribute("aria-expanded", "false");
+        sidebarMenu.setAttribute("aria-hidden", "true");
+      };
+
+      const openMenu = () => {
+        sidebarMenu.classList.add("is-open");
+        menuOverlay.hidden = false;
+        menuToggle.setAttribute("aria-expanded", "true");
+        sidebarMenu.setAttribute("aria-hidden", "false");
+      };
+
+      menuToggle.addEventListener("click", () => {
+        if (sidebarMenu.classList.contains("is-open")) {
+          closeMenu();
+          return;
+        }
+        openMenu();
+      });
+
+      menuOverlay.addEventListener("click", closeMenu);
+      window.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && sidebarMenu.classList.contains("is-open")) {
+          closeMenu();
+        }
+      });
+    </script>
   </body>
 </html>
