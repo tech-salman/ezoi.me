@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blogs - Muhammad Salman Nadeem</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    .coming-soon {
+      text-align: center;
+      padding: 80px 20px;
+      min-height: 70vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .coming-soon h1 {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      color: #6f7bff;
+    }
+  </style>
+</head>
+<body>
+  <div class="coming-soon">
+    <h1>📝 Blogs</h1>
+    <p><strong>Blogs are getting ready and will be uploaded soon!</strong></p>
+    <p style="margin-top: 30px; color: #a8b6df;">
+      Stay tuned! 🚀
+    </p>
+    <a href="/" style="margin-top: 40px; color: #8fdbff; text-decoration: underline;">
+      ← Back to Home
+    </a>
+  </div>
+</body>
+</html>
