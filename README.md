@@ -1,1 +1,1 @@
-# [tech-salman.github.io](tech-salman.github.io)
+# [ezoi.me](https://ezoi.me)
