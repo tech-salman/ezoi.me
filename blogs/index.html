@@ -3,22 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ezoi Blogs</title>
+  <title>Blogs - Muhammad Salman Nadeem</title>
   <link rel="stylesheet" href="/styles.css" />
   <style>
     .coming-soon {
       text-align: center;
-      padding: 80px 20px;
-      min-height: 70vh;
+      padding: 100px 20px;
+      min-height: 80vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      gap: 20px;
     }
     .coming-soon h1 {
-      font-size: 2.2rem;
-      margin-bottom: 20px;
+      font-size: 2.4rem;
+      margin-bottom: 16px;
       color: #6f7bff;
+    }
+    .back-home-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 32px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: white;
+      background: linear-gradient(140deg, #6f7bff, #20d7ff);
+      border: none;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 8px 25px rgba(111, 123, 255, 0.4);
+      transition: all 0.3s ease;
+      margin-top: 30px;
+    }
+    .back-home-btn:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 35px rgba(111, 123, 255, 0.5);
+      background: linear-gradient(140deg, #5a68ff, #1bc8f0);
     }
   </style>
 </head>
@@ -26,12 +48,10 @@
   <div class="coming-soon">
     <h1>📝 Blogs</h1>
     <p><strong>Blogs are getting ready and will be uploaded soon!</strong></p>
-    <p style="margin-top: 30px; color: #a8b6df;">
-      Stay tuned! 🚀
-    </p>
-    <button><a href="/" style="margin-top: 40px; color: #8fdbff; text-decoration: underline;">
-      ← Back to ezoi
-    </a></button>
+    
+    <a href="/" class="back-home-btn">
+      ← Return to Home
+    </a>
   </div>
 </body>
 </html>
