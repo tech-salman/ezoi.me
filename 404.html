@@ -3,14 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ezoi.me | Page Not Found</title>
+  <title>404 - Page Not Found | ezoi.me</title>
   <link rel="stylesheet" href="/styles.css" />
   <style>
-    /* ── Reset & base ── */
-    *, *::before, *::after {
-      box-sizing: border-box;
-    }
-
     .error-page {
       min-height: 100vh;
       display: flex;
@@ -20,56 +15,42 @@
       text-align: center;
       background: var(--bg);
       color: var(--text);
-      /* fluid padding: comfortable on every size */
-      padding: clamp(16px, 5vw, 60px) clamp(16px, 8vw, 80px);
-      gap: 0; /* spacing handled per-element */
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
     }
-
-    /* ── 404 | Error ── */
+    .bg-grid {
+      position: fixed;
+      inset: 0;
+      opacity: 0.15;
+      background-image: 
+        linear-gradient(to right, rgba(140, 161, 255, 0.2) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(140, 161, 255, 0.2) 1px, transparent 1px);
+      background-size: 40px 40px;
+      pointer-events: none;
+      z-index: -1;
+    }
     .error-code {
-      /* smoothly scales from ~2.8rem (320 px) → 7rem (1200 px+) */
-      font-size: clamp(2.8rem, 10vw + 0.5rem, 7rem);
+      font-size: clamp(5rem, 15vw, 9rem);
       font-weight: bold;
       background: linear-gradient(90deg, #6f7bff, #20d7ff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin: 0;
+      margin: 0 0 10px;
       line-height: 1;
     }
-
-    /* ── Page Not Available ── */
-    .error-code1 {
-      /* scales from ~1.8rem → 4rem */
-      font-size: clamp(1.8rem, 6vw + 0.25rem, 4rem);
-      font-weight: bold;
-      background: linear-gradient(95deg, #6f7cff, #20d8ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin: clamp(8px, 2vw, 16px) 0 0;
-      line-height: 1.4;
-    }
-
-    /* ── Sub-copy ── */
     .error-message {
-      /* scales from ~1rem → 1.8rem */
-      font-size: clamp(1rem, 3vw + 0.1rem, 1.8rem);
-      margin: clamp(16px, 4vw, 32px) 0 clamp(24px, 5vw, 48px);
+      font-size: clamp(1.2rem, 4vw, 1.8rem);
+      margin: 10px 0 40px;
       color: var(--muted);
-      /* prevent one very long word breaking layout on tiny screens */
-      overflow-wrap: break-word;
-      max-width: 55ch;
+      max-width: 500px;
     }
-
-    /* ── CTA button ── */
     .return-btn {
       display: inline-flex;
       align-items: center;
-      gap: clamp(8px, 2vw, 12px);
-      /* fluid padding */
-      padding: clamp(12px, 2.5vw, 16px) clamp(24px, 6vw, 40px);
-      font-size: clamp(0.9rem, 2.5vw, 1.15rem);
+      gap: 12px;
+      padding: 16px 40px;
+      font-size: clamp(1rem, 3.5vw, 1.15rem);
       font-weight: 600;
       color: white;
       background: linear-gradient(140deg, #6f7bff, #20d7ff);
@@ -77,47 +58,31 @@
       border-radius: 50px;
       text-decoration: none;
       box-shadow: 0 10px 30px rgba(111, 123, 255, 0.4);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      /* keeps button from stretching full-width on narrow screens */
-      white-space: nowrap;
+      transition: all 0.3s ease;
     }
-
     .return-btn:hover {
-      transform: translateY(-5px);
+      transform: translateY(-5px) scale(1.05);
       box-shadow: 0 15px 40px rgba(111, 123, 255, 0.5);
     }
 
-    /* Touch devices: skip the hover lift (no hover state anyway) */
-    @media (hover: none) {
-      .return-btn:hover {
-        transform: none;
-        box-shadow: 0 10px 30px rgba(111, 123, 255, 0.4);
+    /* Extra responsiveness */
+    @media (max-width: 480px) {
+      .error-page {
+        padding: 15px;
       }
-    }
-
-    /* ── Background grid ── */
-    .bg-grid {
-      position: fixed;
-      inset: 0;
-      opacity: 0.15;
-      background-image:
-        linear-gradient(to right,  rgba(140, 161, 255, 0.2) 1px, transparent 1px),
-        linear-gradient(to bottom, rgba(140, 161, 255, 0.2) 1px, transparent 1px);
-      /* shrink grid squares on very small screens so it doesn't look sparse */
-      background-size: clamp(24px, 5vw, 40px) clamp(24px, 5vw, 40px);
-      pointer-events: none;
-      z-index: -1;
+      .return-btn {
+        padding: 14px 32px;
+      }
     }
   </style>
 </head>
 <body>
   <div class="bg-grid"></div>
-
+  
   <div class="error-page">
-    <h1 class="error-code">404 | Error</h1>
-    <h2 class="error-code1">Page Not Available</h2>
-    <p class="error-message">Oops! The page you're looking for, <b>doesn't exist.</b></p>
-
+    <h1 class="error-code">404</h1>
+    <p class="error-message">Oops! The page you're looking for doesn't exist.</p>
+    
     <a href="/" class="return-btn">
       ← Return to ezoi.me
     </a>
