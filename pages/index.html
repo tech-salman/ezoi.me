@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Domains - Muhammad Salman Nadeem</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    .domains-page {
+      min-height: 100vh;
+      padding: 40px 20px;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .header h1 {
+      font-size: clamp(2rem, 6vw, 3rem);
+      background: linear-gradient(90deg, #6f7bff, #20d7ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 12px;
+    }
+    .domains-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+    .domain-card {
+      background: var(--surface-strong);
+      border: 1px solid rgba(111, 123, 255, 0.3);
+      border-radius: 16px;
+      padding: 32px 24px;
+      text-align: center;
+      transition: all 0.4s ease;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    }
+    .domain-card:hover {
+      transform: translateY(-12px) scale(1.03);
+      border-color: #20d7ff;
+      box-shadow: 0 20px 40px rgba(32, 215, 255, 0.25);
+    }
+    .domain-name {
+      font-size: 1.55rem;
+      font-weight: 700;
+      color: #e9f1ff;
+      margin: 16px 0 8px;
+    }
+    .domain-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 36px;
+      background: linear-gradient(140deg, #6f7bff, #20d7ff);
+      color: white;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 6px 20px rgba(111, 123, 255, 0.4);
+      transition: all 0.3s ease;
+    }
+    .domain-btn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 12px 30px rgba(32, 215, 255, 0.5);
+    }
+    .bg-grid {
+      position: fixed;
+      inset: 0;
+      opacity: 0.08;
+      background-image: 
+        linear-gradient(to right, rgba(140, 161, 255, 0.15) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(140, 161, 255, 0.15) 1px, transparent 1px);
+      background-size: 50px 50px;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-grid"></div>
+  
+  <div class="domains-page">
+    <div class="container">
+      <div class="header">
+        <h1>My Digital Domains</h1>
+        <p style="color: var(--muted); font-size: 1.1rem;">Explore all my web presences</p>
+      </div>
+
+      <div class="domains-grid">
+        <div class="domain-card">
+          <h2 class="domain-name">ezoi.me</h2>
+          <p style="color: var(--muted);">Main Portfolio</p>
+          <a href="https://ezoi.me" class="domain-btn" target="_blank">Visit →</a>
+        </div>
+
+        <div class="domain-card">
+          <h2 class="domain-name">ezoi.app</h2>
+          <p style="color: var(--muted);">Web Applications</p>
+          <a href="https://ezoi.app" class="domain-btn" target="_blank">Visit →</a>
+        </div>
+
+        <div class="domain-card">
+          <h2 class="domain-name">ezoi.dev</h2>
+          <p style="color: var(--muted);">Development Hub</p>
+          <a href="https://ezoi.dev" class="domain-btn" target="_blank">Visit →</a>
+        </div>
+
+        <div class="domain-card">
+          <h2 class="domain-name">ezoi.tech</h2>
+          <p style="color: var(--muted);">Tech Projects</p>
+          <a href="https://ezoi.tech" class="domain-btn" target="_blank">Visit →</a>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 60px;">
+        <a href="/" style="color: #8fdbff; text-decoration: underline; font-size: 1.05rem;">
+          ← Back to Main Portfolio
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
