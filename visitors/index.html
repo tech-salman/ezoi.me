@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visitors - Muhammad Salman Nadeem</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    .visitors-page { min-height: 100vh; padding: 40px 20px; background: var(--bg); color: var(--text); }
+    .visitor-list {
+      max-width: 700px;
+      margin: 40px auto;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .visitor-item {
+      background: var(--surface);
+      padding: 18px 26px;
+      border-radius: 12px;
+      border-left: 5px solid #20d7ff;
+    }
+  </style>
+</head>
+<body>
+  <!-- Hamburger Menu same as before -->
+  <button class="menu-toggle" type="button">☰</button>
+  <div class="menu-overlay" hidden></div>
+  <aside class="sidebar-menu" id="sidebar-menu">
+    <nav class="sidebar-nav">
+      <a href="/">Home</a>
+      <a href="/pages/">My Domains</a>
+      <a href="/blogs/">Blogs</a>
+      <a href="/visitors/">Visitors</a>
+    </nav>
+  </aside>
+
+  <div class="visitors-page">
+    <div style="text-align:center; max-width:800px; margin:0 auto;">
+      <h1>✦ Visitors List ✦</h1>
+      <div id="visitor-list" class="visitor-list"></div>
+    </div>
+  </div>
+
+  <script>
+    fetch('/visitors.json')
+      .then(r => r.json())
+      .then(data => {
+        const container = document.getElementById('visitor-list');
+        if (data.visitors.length === 0) {
+          container.innerHTML = '<p style="text-align:center;color:#a8b6df;">No visitors yet. Be the first!</p>';
+        } else {
+          data.visitors.forEach(v => {
+            const div = document.createElement('div');
+            div.className = 'visitor-item';
+            div.innerHTML = `<strong>${v.name}</strong> <span style="float:right;color:var(--muted);">${v.date}</span>`;
+            container.appendChild(div);
+          });
+        }
+      });
+  </script>
+</body>
+</html>
