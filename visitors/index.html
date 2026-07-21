@@ -49,8 +49,13 @@
   </div>
 
   <script>
-    fetch('https://script.google.com/macros/s/AKfycbxG9vwkjZ_Rc8ZpBp2nYdh3i6WCuNs8Ix7LcaM6eHfH-QX4T-vEt1QtsHRMTE9Ly4aA/exec')
-      .then(r => r.json())
+    const url = 'https://script.google.com/macros/s/AKfycbxG9vwkjZ_Rc8ZpBp2nYdh3i6WCuNs8Ix7LcaM6eHfH-QX4T-vEt1QtsHRMTE9Ly4aA/exec';
+
+    fetch(url)
+      .then(response => {
+        if (!response.ok) throw new Error('Network error');
+        return response.json();
+      })
       .then(data => {
         const container = document.getElementById('visitor-list');
         if (!data.visitors || data.visitors.length === 0) {
@@ -68,9 +73,10 @@
           });
         }
       })
-      .catch(() => {
+      .catch(err => {
+        console.error(err);
         document.getElementById('visitor-list').innerHTML = 
-          '<p style="text-align:center;color:#a8b6df;">Unable to load visitors at the moment.</p>';
+          '<p style="text-align:center;color:#ff6b6b;">Unable to load visitors right now.<br>Please try again later.</p>';
       });
   </script>
 </body>
