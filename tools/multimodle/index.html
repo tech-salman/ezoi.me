@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Multimodle SSL certificate generator tool by Muhammad Salman Nadeem. Generate development self-signed SSL certificates and private keys with RapidAPI." />
+  <meta name="keywords" content="ssl certificate generator, self-signed certificate tool, private key generator, RapidAPI SSL, development SSL tool" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://ezoi.me/tools/multimodle/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Multimodle SSL Certificate Generator - ezoi.me" />
+  <meta property="og:description" content="Generate development SSL certificates and private keys using RapidAPI SSL Certificate Generator." />
+  <meta property="og:url" content="https://ezoi.me/tools/multimodle/" />
+  <meta property="og:site_name" content="Muhammad Salman Nadeem Portfolio" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Multimodle SSL Certificate Generator - ezoi.me" />
+  <meta name="twitter:description" content="Generate development SSL certificates and private keys using RapidAPI SSL Certificate Generator." />
+  <title>Multimodle SSL Certificate Generator - Muhammad Salman Nadeem</title>
+  <link rel="stylesheet" href="../../styles.css" />
+  <style>
+    .page-wrap { min-height: 100vh; padding: 40px 20px; background: var(--bg); color: var(--text); }
+    .container { max-width: 1080px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 20px; }
+    .header h1 {
+      margin: 0 0 8px;
+      font-size: clamp(1.9rem, 6vw, 3rem);
+      background: linear-gradient(90deg, #6f7bff, #20d7ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .header p { margin: 0; color: var(--muted); }
+    .shell {
+      border-radius: 16px;
+      border: 1px solid rgba(111, 123, 255, 0.35);
+      background: var(--surface-strong);
+      padding: 16px;
+      box-shadow: 0 10px 30px rgba(6, 10, 28, 0.55);
+    }
+    .warning {
+      border-radius: 12px;
+      border: 1px solid rgba(255, 196, 84, 0.45);
+      background: rgba(255, 196, 84, 0.1);
+      padding: 10px 12px;
+      margin-bottom: 14px;
+      color: #ffeab9;
+      line-height: 1.5;
+      font-size: 0.92rem;
+    }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+    .field { display: flex; flex-direction: column; gap: 6px; }
+    .field label { color: #a8bee9; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.02em; }
+    .field input, .field select {
+      border-radius: 10px;
+      border: 1px solid rgba(163, 185, 255, 0.55);
+      background: rgba(10, 16, 36, 0.86);
+      color: var(--text);
+      padding: 10px;
+      font-family: inherit;
+      font-size: 0.92rem;
+      outline: none;
+    }
+    .field input:focus, .field select:focus { border-color: #20d7ff; box-shadow: 0 0 0 2px rgba(32, 215, 255, 0.2); }
+    .full { grid-column: 1 / -1; }
+    .btn-row { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 8px; }
+    .btn {
+      border-radius: 10px;
+      border: 1px solid rgba(176, 208, 255, 0.75);
+      background: linear-gradient(140deg, rgba(89, 115, 255, 0.55), rgba(39, 198, 255, 0.55));
+      color: #f4f8ff;
+      padding: 10px 13px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .btn.secondary {
+      border-color: rgba(163, 185, 255, 0.55);
+      background: rgba(255, 255, 255, 0.1);
+      font-weight: 600;
+    }
+    .btn:disabled { opacity: 0.65; cursor: not-allowed; }
+    .status { margin-top: 12px; color: var(--muted); font-size: 0.88rem; min-height: 1.3em; }
+    .panel {
+      margin-top: 12px;
+      border-radius: 12px;
+      border: 1px solid rgba(117, 141, 255, 0.28);
+      background: rgba(7, 12, 30, 0.75);
+      padding: 12px;
+    }
+    .panel h2 { margin: 0 0 8px; font-size: 1rem; }
+    pre {
+      margin: 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+      line-height: 1.5;
+      font-size: 0.88rem;
+      color: #dff1ff;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+    .footer-actions { margin-top: 12px; display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .back-link { color: #8fdbff; text-decoration: underline; }
+    @media (max-width: 760px) {
+      .page-wrap { padding: 20px 12px; }
+      .grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="sidebar-menu">☰</button>
+  <div class="menu-overlay" hidden></div>
+
+  <aside class="sidebar-menu" id="sidebar-menu" aria-hidden="true">
+    <nav class="sidebar-nav" aria-label="Sidebar">
+      <a href="/">Home</a>
+      <a href="/blogs/">Blogs</a>
+      <a href="/pages/">Web Pages</a>
+      <a href="/islamAI/">Islam AI</a>
+      <a href="/tools/">Tools</a>
+    </nav>
+  </aside>
+
+  <main class="page-wrap">
+    <div class="container">
+      <header class="header">
+        <h1>🔐 Multimodle SSL Certificate Generator</h1>
+        <p>Create dev-only self-signed certificates and private keys with RapidAPI SSL Certificate Generator.</p>
+      </header>
+
+      <section class="shell" aria-label="SSL Certificate Generator Tool">
+        <div class="warning">
+          Development use only. Do not use generated self-signed certificates in production.
+        </div>
+
+        <div class="grid">
+          <div class="field full">
+            <label for="apiKey">RapidAPI Key</label>
+            <input id="apiKey" type="password" autocomplete="off" placeholder="Enter your x-rapidapi-key" />
+          </div>
+          <div class="field">
+            <label for="apiHost">RapidAPI Host</label>
+            <input id="apiHost" type="text" value="ssl-certificate-generator.p.rapidapi.com" />
+          </div>
+          <div class="field">
+            <label for="apiBase">API Base URL</label>
+            <input id="apiBase" type="url" value="https://ssl-certificate-generator.p.rapidapi.com" />
+          </div>
+          <div class="field">
+            <label for="country">Country</label>
+            <input id="country" type="text" value="US" />
+          </div>
+          <div class="field">
+            <label for="state">State</label>
+            <input id="state" type="text" value="California" />
+          </div>
+          <div class="field">
+            <label for="location">Location</label>
+            <input id="location" type="text" value="San Francisco" />
+          </div>
+          <div class="field">
+            <label for="organization">Organization</label>
+            <input id="organization" type="text" value="Example Inc" />
+          </div>
+          <div class="field">
+            <label for="domainName">Domain</label>
+            <input id="domainName" type="text" value="example.com" />
+          </div>
+          <div class="field">
+            <label for="validityDays">Validity Days</label>
+            <input id="validityDays" type="number" min="1" value="365" />
+          </div>
+          <div class="field">
+            <label for="bits">Key Size (bits)</label>
+            <select id="bits">
+              <option value="2048" selected>2048</option>
+              <option value="3072">3072</option>
+              <option value="4096">4096</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="digest">Digest</label>
+            <select id="digest">
+              <option value="sha256" selected>sha256</option>
+              <option value="sha384">sha384</option>
+              <option value="sha512">sha512</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="requestId">Request ID</label>
+            <input id="requestId" type="text" placeholder="Will auto-fill after generation" />
+          </div>
+        </div>
+
+        <div class="btn-row">
+          <button id="generateBtn" class="btn" type="button">Generate Certificate</button>
+          <button id="fetchCertBtn" class="btn secondary" type="button">Fetch Certificate</button>
+          <button id="fetchKeyBtn" class="btn secondary" type="button">Fetch Key</button>
+          <button id="copyBtn" class="btn secondary" type="button">Copy Output</button>
+          <button id="clearBtn" class="btn secondary" type="button">Clear Output</button>
+        </div>
+
+        <div id="status" class="status">Status: Ready</div>
+        <div class="panel">
+          <h2>Output</h2>
+          <pre id="output" aria-live="polite">No output yet.</pre>
+        </div>
+
+        <div class="footer-actions">
+          <small style="color: var(--muted);">Endpoints used: POST /gen/ · GET /cert/{id} · GET /key/{id}</small>
+          <a class="back-link" href="/tools/">← Back to Tools</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const sidebarMenu = document.getElementById('sidebar-menu');
+    const menuOverlay = document.querySelector('.menu-overlay');
+
+    const closeMenu = () => {
+      sidebarMenu.classList.remove('is-open');
+      menuOverlay.hidden = true;
+      menuToggle.setAttribute('aria-expanded', 'false');
+      sidebarMenu.setAttribute('aria-hidden', 'true');
+    };
+
+    const openMenu = () => {
+      sidebarMenu.classList.add('is-open');
+      menuOverlay.hidden = false;
+      menuToggle.setAttribute('aria-expanded', 'true');
+      sidebarMenu.setAttribute('aria-hidden', 'false');
+    };
+
+    menuToggle.addEventListener('click', () => {
+      sidebarMenu.classList.contains('is-open') ? closeMenu() : openMenu();
+    });
+
+    menuOverlay.addEventListener('click', closeMenu);
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && sidebarMenu.classList.contains('is-open')) closeMenu();
+    });
+
+    const output = document.getElementById('output');
+    const statusEl = document.getElementById('status');
+    const generateBtn = document.getElementById('generateBtn');
+    const fetchCertBtn = document.getElementById('fetchCertBtn');
+    const fetchKeyBtn = document.getElementById('fetchKeyBtn');
+    const copyBtn = document.getElementById('copyBtn');
+    const clearBtn = document.getElementById('clearBtn');
+    const requestIdInput = document.getElementById('requestId');
+
+    const setStatus = (value) => {
+      statusEl.textContent = value;
+    };
+
+    const showOutput = (value) => {
+      output.textContent = typeof value === 'string' ? value : JSON.stringify(value, null, 2);
+    };
+
+    const getConfig = () => ({
+      key: document.getElementById('apiKey').value.trim(),
+      host: document.getElementById('apiHost').value.trim(),
+      base: document.getElementById('apiBase').value.trim().replace(/\/+$/, '')
+    });
+
+    const getPayload = () => ({
+      country: document.getElementById('country').value.trim(),
+      state: document.getElementById('state').value.trim(),
+      location: document.getElementById('location').value.trim(),
+      organization: document.getElementById('organization').value.trim(),
+      domain_name: document.getElementById('domainName').value.trim(),
+      validity_days: Number(document.getElementById('validityDays').value),
+      bits: Number(document.getElementById('bits').value),
+      digest: document.getElementById('digest').value
+    });
+
+    const asSafeJson = async (response) => {
+      const text = await response.text();
+      try {
+        return { parsed: JSON.parse(text), text };
+      } catch (_) {
+        return { parsed: null, text };
+      }
+    };
+
+    const callApi = async (path, method = 'GET', body) => {
+      const config = getConfig();
+      if (!config.key || !config.host || !config.base) {
+        throw new Error('Please provide RapidAPI key, host, and base URL.');
+      }
+      const headers = {
+        'x-rapidapi-key': config.key,
+        'x-rapidapi-host': config.host
+      };
+      if (body) headers['Content-Type'] = 'application/json';
+      const response = await fetch(`${config.base}${path}`, { method, headers, body: body ? JSON.stringify(body) : undefined });
+      const { parsed, text } = await asSafeJson(response);
+      if (!response.ok) {
+        throw new Error(parsed?.message || text || `Request failed with status ${response.status}`);
+      }
+      return parsed || text;
+    };
+
+    const withBusy = async (label, fn) => {
+      const buttons = [generateBtn, fetchCertBtn, fetchKeyBtn];
+      buttons.forEach((btn) => (btn.disabled = true));
+      setStatus(`Status: ${label}...`);
+      try {
+        await fn();
+      } catch (error) {
+        showOutput(`Error: ${error.message}`);
+        setStatus('Status: Failed');
+      } finally {
+        buttons.forEach((btn) => (btn.disabled = false));
+      }
+    };
+
+    generateBtn.addEventListener('click', () => withBusy('Generating certificate', async () => {
+      const payload = getPayload();
+      if (!payload.domain_name) throw new Error('Domain is required.');
+      const result = await callApi('/gen/', 'POST', payload);
+      const id = result?.id || result?.data?.id || result?.request_id || '';
+      if (id) requestIdInput.value = String(id);
+      showOutput(result);
+      setStatus(`Status: Certificate generated${id ? ` (id: ${id})` : ''}`);
+    }));
+
+    fetchCertBtn.addEventListener('click', () => withBusy('Fetching certificate', async () => {
+      const id = requestIdInput.value.trim();
+      if (!id) throw new Error('Request ID is required.');
+      const result = await callApi(`/cert/${encodeURIComponent(id)}`, 'GET');
+      showOutput(result);
+      setStatus('Status: Certificate fetched');
+    }));
+
+    fetchKeyBtn.addEventListener('click', () => withBusy('Fetching private key', async () => {
+      const id = requestIdInput.value.trim();
+      if (!id) throw new Error('Request ID is required.');
+      const result = await callApi(`/key/${encodeURIComponent(id)}`, 'GET');
+      showOutput(result);
+      setStatus('Status: Private key fetched');
+    }));
+
+    copyBtn.addEventListener('click', async () => {
+      const text = output.textContent || '';
+      if (!text || text === 'No output yet.') return;
+      try {
+        await navigator.clipboard.writeText(text);
+        setStatus('Status: Output copied');
+      } catch (_) {
+        setStatus('Status: Clipboard copy failed');
+      }
+    });
+
+    clearBtn.addEventListener('click', () => {
+      output.textContent = 'No output yet.';
+      setStatus('Status: Ready');
+    });
+  </script>
+</body>
+</html>

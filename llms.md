@@ -12,6 +12,8 @@
 - Education: https://ezoi.me/#education
 - Social links: https://ezoi.me/#social-links
 - About: https://ezoi.me/#about
+- Tools hub: https://ezoi.me/tools/
+- Multimodle SSL Certificate Generator: https://ezoi.me/tools/multimodle/
 
 ## Downloadable Document
 - CV (PDF): https://ezoi.me/Muhammad_Salman_Nadeem_CV.pdf
