@@ -17,6 +17,7 @@ Key Sections
 - Islam AI: https://ezoi.me/islamAI/
 - Tools hub: https://ezoi.me/tools/
 - Multimodle SSL Certificate Generator: https://ezoi.me/tools/multimodle/
+- NetDetective IP Intelligence Tool: https://ezoi.me/tools/netdetective/
 
 Contact
 - Email: salman.nadeem.com@gmail.com
