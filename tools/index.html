@@ -3,17 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Tools by Muhammad Salman Nadeem. Utility pages and experiments for productivity and development." />
+  <meta name="description" content="Developer tools by Muhammad Salman Nadeem including a multimodel SSL certificate generator utility for development workflows." />
+  <meta name="keywords" content="developer tools, SSL certificate generator, RapidAPI tools, multimodel tools, ezoi tools" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <link rel="canonical" href="https://ezoi.me/tools/" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Tools - Muhammad Salman Nadeem" />
-  <meta property="og:description" content="Utility pages and experiments by Muhammad Salman Nadeem." />
+  <meta property="og:description" content="Explore useful development tools including SSL certificate generation utilities." />
   <meta property="og:url" content="https://ezoi.me/tools/" />
   <meta property="og:site_name" content="Muhammad Salman Nadeem Portfolio" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Tools - Muhammad Salman Nadeem" />
-  <meta name="twitter:description" content="Utility pages and experiments by Muhammad Salman Nadeem." />
+  <meta name="twitter:description" content="Explore useful development tools including SSL certificate generation utilities." />
   <title>Tools - Muhammad Salman Nadeem</title>
   <link rel="stylesheet" href="../styles.css" />
   <style>
@@ -31,7 +32,42 @@
       border: 1px solid rgba(111, 123, 255, 0.35);
       border-radius: 16px;
       padding: 24px;
-      text-align: center;
+    }
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+    .tool-card {
+      border-radius: 12px;
+      border: 1px solid rgba(163, 185, 255, 0.35);
+      background: rgba(255, 255, 255, 0.04);
+      padding: 14px;
+    }
+    .tool-card h2 {
+      margin: 0 0 8px;
+      font-size: 1.02rem;
+    }
+    .tool-card p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      line-height: 1.55;
+      font-size: 0.92rem;
+    }
+    .tool-link {
+      display: inline-block;
+      border-radius: 999px;
+      border: 1px solid rgba(176, 208, 255, 0.75);
+      background: linear-gradient(140deg, rgba(89, 115, 255, 0.45), rgba(39, 198, 255, 0.45));
+      color: #f4f8ff;
+      padding: 8px 12px;
+      font-size: 0.87rem;
+      text-decoration: none;
+    }
+    .tool-link:hover {
+      text-decoration: none;
+      background: linear-gradient(140deg, rgba(98, 126, 255, 0.62), rgba(44, 204, 255, 0.62));
     }
   </style>
 </head>
@@ -54,11 +90,19 @@
     <div class="container">
       <div class="header">
         <h1>🧰 Tools</h1>
-        <p style="color: var(--muted); font-size: 1.05rem;">Utility pages and experiments are being prepared.</p>
+        <p style="color: var(--muted); font-size: 1.05rem;">Developer utilities and practical web tools.</p>
       </div>
 
       <section class="panel">
-        <p style="margin:0 0 16px;">More tools will be published here soon.</p>
+        <p style="margin:0;">Available tools:</p>
+        <div class="tools-grid">
+          <article class="tool-card">
+            <h2>RapidAPI SSL Certificate Generator (Multimodle)</h2>
+            <p>Generate a dev-only self-signed SSL certificate and private key using RapidAPI, then fetch certificate and key by request ID.</p>
+            <a class="tool-link" href="/tools/multimodle/">Open Tool →</a>
+          </article>
+        </div>
+        <p style="margin:16px 0 0; color: var(--muted); font-size: 0.9rem;">More tools will be added soon.</p>
         <a href="/" style="color:#8fdbff; text-decoration: underline;">← Back to Main Portfolio</a>
       </section>
     </div>
