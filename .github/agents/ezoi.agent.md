@@ -17,6 +17,7 @@ description: ezoi.me Customization
 * if i give you a file + path segment name, extract API and endpoint URL and more necessory information from it and use it in the tool as needed, and make its entire working tool, and add its button to that path segment, and make its own path segment to reditect to that tool.
 * i will also give you the discription of tool and what it should be named.
 * in clear wording when i give you any API relatig things with path segment name, add its button to that path segment and make its own new path segment and in the new path segment make the entire tool according to that API discription.
+* if i give you multiple files make multimodel tool or add these multiple models to the existing multimodle tool as instructions.
 * if i ask for the multimodle tool, i will give you multiple API files.
 * the files i will give you , will contain the 'provided code from the source' and the 'discription'. and i will guide you weither it should be added to multimodle or separate tool.
 * before generating anything, confirm it first giving me best of the best recomendations.
