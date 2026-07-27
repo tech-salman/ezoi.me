@@ -17,22 +17,8 @@
   <meta name="twitter:description" content="A collection of small, useful, fully client-side developer tools." />
   <title>Tools - Muhammad Salman Nadeem</title>
   <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../tools.css" />
   <style>
-    .tools-page { min-height: 100vh; padding: 40px 20px; background: var(--bg); color: var(--text); }
-    .container { max-width: 900px; margin: 0 auto; }
-    .header { text-align: center; margin-bottom: 36px; }
-    .header h1 {
-      font-size: clamp(2rem, 6vw, 3rem);
-      background: linear-gradient(90deg, #6f7bff, #20d7ff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .panel {
-      background: var(--surface-strong);
-      border: 1px solid rgba(111, 123, 255, 0.35);
-      border-radius: 16px;
-      padding: 24px;
-    }
     .tools-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -83,79 +69,77 @@
 
   <aside class="sidebar-menu" id="sidebar-menu" aria-hidden="true">
     <nav class="sidebar-nav" aria-label="Sidebar">
-      <a href="/">Home</a>
       <a href="/blogs/">Blogs</a>
       <a href="/pages/">Web Pages</a>
+      <a href="/tools/">Tools</a>
       <a href="/islamAI/">Islam AI</a>
     </nav>
   </aside>
 
-  <div class="tools-page">
-    <div class="container">
-      <div class="header">
-        <h1>🧰 Tools</h1>
-        <p style="color: var(--muted); font-size: 1.05rem;">Small, useful, fully client-side developer utilities.</p>
-      </div>
+  <main class="page">
+    <header class="top-banner">
+      <h1>🧰 Tools</h1>
+      <p>Small, useful, fully client-side developer utilities.</p>
+    </header>
 
-      <section class="panel">
-        <p style="margin:0;">Available tools:</p>
-        <div class="tools-grid">
-          <article class="tool-card">
-            <h2>📝 Word &amp; Character Counter</h2>
-            <p>Count words, characters, sentences, lines, and estimated reading time live.</p>
-            <a class="tool-link" href="/tools/word-counter/">Open Tool →</a>
-          </article>
-          <article class="tool-card">
-            <h2>🔡 Case Converter</h2>
-            <p>Switch text between uppercase, lowercase, title, sentence, camelCase, and toggle.</p>
-            <a class="tool-link" href="/tools/case-converter/">Open Tool →</a>
-          </article>
-          <article class="tool-card">
-            <h2>🔐 Base64 Encode / Decode</h2>
-            <p>Encode text to Base64 or decode Base64 back to text — runs in your browser.</p>
-            <a class="tool-link" href="/tools/base64/">Open Tool →</a>
-          </article>
-          <article class="tool-card">
-            <h2>🧾 JSON Formatter</h2>
-            <p>Validate, pretty-print, and minify JSON instantly with clear error messages.</p>
-            <a class="tool-link" href="/tools/json-formatter/">Open Tool →</a>
-          </article>
-          <article class="tool-card">
-            <h2>🔗 URL Encode / Decode</h2>
-            <p>Make text safe for URLs and query strings, or decode it back.</p>
-            <a class="tool-link" href="/tools/url-encoder/">Open Tool →</a>
-          </article>
-          <article class="tool-card">
-            <h2>🔑 Password Generator</h2>
-            <p>Create strong random passwords locally with customizable length and character sets.</p>
-            <a class="tool-link" href="/tools/password-generator/">Open Tool →</a>
-          </article>
-          <article class="tool-card">
-            <h2>🎨 Color Converter</h2>
-            <p>Convert colors between HEX, RGB, and HSL with a live preview swatch.</p>
-            <a class="tool-link" href="/tools/color-converter/">Open Tool →</a>
-          </article>
-          <article class="tool-card">
-            <h2>⏱️ Timestamp Converter</h2>
-            <p>Convert Unix timestamps to readable dates and back, in UTC.</p>
-            <a class="tool-link" href="/tools/timestamp-converter/">Open Tool →</a>
-          </article>
-          <article class="tool-card">
-            <h2>🔍 Text Diff</h2>
-            <p>Compare two blocks of text and highlight added and removed lines.</p>
-            <a class="tool-link" href="/tools/text-diff/">Open Tool →</a>
-          </article>
-          <article class="tool-card">
-            <h2>📄 Lorem Ipsum Generator</h2>
-            <p>Generate placeholder text by paragraphs, sentences, or word count.</p>
-            <a class="tool-link" href="/tools/lorem-ipsum/">Open Tool →</a>
-          </article>
-        </div>
-        <p style="margin:16px 0 0; color: var(--muted); font-size: 0.9rem;">All tools run entirely in your browser — nothing is uploaded.</p>
-        <a href="/" style="color:#8fdbff; text-decoration: underline;">← Back to Main Portfolio</a>
-      </section>
-    </div>
-  </div>
+    <section class="panel">
+      <p style="margin:0;">Available tools:</p>
+      <div class="tools-grid">
+        <article class="tool-card">
+          <h2>📝 Word &amp; Character Counter</h2>
+          <p>Count words, characters, sentences, lines, and estimated reading time live.</p>
+          <a class="tool-link" href="/tools/word-counter/">Open Tool →</a>
+        </article>
+        <article class="tool-card">
+          <h2>🔡 Case Converter</h2>
+          <p>Switch text between uppercase, lowercase, title, sentence, camelCase, and toggle.</p>
+          <a class="tool-link" href="/tools/case-converter/">Open Tool →</a>
+        </article>
+        <article class="tool-card">
+          <h2>🔐 Base64 Encode / Decode</h2>
+          <p>Encode text to Base64 or decode Base64 back to text — runs in your browser.</p>
+          <a class="tool-link" href="/tools/base64/">Open Tool →</a>
+        </article>
+        <article class="tool-card">
+          <h2>🧾 JSON Formatter</h2>
+          <p>Validate, pretty-print, and minify JSON instantly with clear error messages.</p>
+          <a class="tool-link" href="/tools/json-formatter/">Open Tool →</a>
+        </article>
+        <article class="tool-card">
+          <h2>🔗 URL Encode / Decode</h2>
+          <p>Make text safe for URLs and query strings, or decode it back.</p>
+          <a class="tool-link" href="/tools/url-encoder/">Open Tool →</a>
+        </article>
+        <article class="tool-card">
+          <h2>🔑 Password Generator</h2>
+          <p>Create strong random passwords locally with customizable length and character sets.</p>
+          <a class="tool-link" href="/tools/password-generator/">Open Tool →</a>
+        </article>
+        <article class="tool-card">
+          <h2>🎨 Color Converter</h2>
+          <p>Convert colors between HEX, RGB, and HSL with a live preview swatch.</p>
+          <a class="tool-link" href="/tools/color-converter/">Open Tool →</a>
+        </article>
+        <article class="tool-card">
+          <h2>⏱️ Timestamp Converter</h2>
+          <p>Convert Unix timestamps to readable dates and back, in UTC.</p>
+          <a class="tool-link" href="/tools/timestamp-converter/">Open Tool →</a>
+        </article>
+        <article class="tool-card">
+          <h2>🔍 Text Diff</h2>
+          <p>Compare two blocks of text and highlight added and removed lines.</p>
+          <a class="tool-link" href="/tools/text-diff/">Open Tool →</a>
+        </article>
+        <article class="tool-card">
+          <h2>📄 Lorem Ipsum Generator</h2>
+          <p>Generate placeholder text by paragraphs, sentences, or word count.</p>
+          <a class="tool-link" href="/tools/lorem-ipsum/">Open Tool →</a>
+        </article>
+      </div>
+      <p style="margin:16px 0 0; color: var(--muted); font-size: 0.9rem;">All tools run entirely in your browser — nothing is uploaded.</p>
+      <a class="back-link" href="/">← Back to Main Portfolio</a>
+    </section>
+  </main>
 
   <script>
     const menuToggle = document.querySelector('.menu-toggle');
