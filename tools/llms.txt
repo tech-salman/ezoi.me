@@ -1,0 +1,590 @@
+# Student Offers
+
+> Verified student discounts, offer verification guidance, and student savings guides from Student Offers.
+
+## Core Pages
+- [Home](https://www.studentoffers.co/.md): Browse verified student discounts across categories.
+- [All Tools](https://www.studentoffers.co/tools.md): Search and browse the public student offer directory.
+- [How We Verify](https://www.studentoffers.co/how-we-verify.md): Learn how Student Offers reviews and re-checks offers.
+- [Blog](https://www.studentoffers.co/blog.md): Student discount guides, explainers, and comparison articles.
+- [Privacy Policy, Cookies & Terms](https://www.studentoffers.co/privacy-cookies-terms.md): Public privacy, cookie, and legal policy information.
+
+## Offers
+- [.TECH](https://www.studentoffers.co/offer/tech.md): Free .TECH domain for 1 year
+- [1001 Record](https://www.studentoffers.co/offer/1001-record.md): $9.99 for the first year
+- [1001 TVs](https://www.studentoffers.co/offer/1001-tvs.md): 50% off first year (iOS)
+- [1Password](https://www.studentoffers.co/offer/1password.md): Free for 1 year, then 50% off
+- [24 Hour Fitness](https://www.studentoffers.co/offer/24-hour-fitness.md): Discounted summer gym membership for high schoolers
+- [ACM Digital Library](https://www.studentoffers.co/offer/acm-digital-library.md): $42/yr student membership + Digital Library Premium
+- [Adafruit](https://www.studentoffers.co/offer/adafruit.md): 1 year of Adafruit IO+ & hardware discounts
+- [adidas](https://www.studentoffers.co/offer/adidas.md): Up to 30% off full price items
+- [Adobe Creative Cloud Pro](https://www.studentoffers.co/offer/adobe-creative-cloud.md): 4 months free trial + 71% off for students
+- [Aerolink](https://www.studentoffers.co/offer/aerolink.md): Free $60+ credits for 1 week — All Claude models via API
+- [Affinity](https://www.studentoffers.co/offer/affinity.md): 100% Free for everyone
+- [AgentRouter](https://www.studentoffers.co/offer/agentrouter.md): Up to $200 free credits — Claude, GLM & more API access
+- [AiApply](https://www.studentoffers.co/offer/aiapply.md): 40% discount on Premium
+- [Air India](https://www.studentoffers.co/offer/air-india.md): Up to 10% off fares + extra baggage and flexible date change
+- [Airtable](https://www.studentoffers.co/offer/airtable.md): 120-day free Team trial + 6–24 months free on approval
+- [Aiven SQL Optimizer](https://www.studentoffers.co/offer/aiven-sql-optimizer.md): Free online SQL optimizer for PostgreSQL & MySQL
+- [Aiven SQL Optimizer](https://www.studentoffers.co/offer/aiven-sql-optimizer-2.md): Free SQL optimizer for PostgreSQL & MySQL
+- [Akiflow](https://www.studentoffers.co/offer/akiflow.md): Exclusive student discount (Contact Support)
+- [AlgoExpert](https://www.studentoffers.co/offer/algoexpert.md): Free 20 coding interview questions + 10% off on all products
+- [Alibaba Cloud](https://www.studentoffers.co/offer/alibaba-cloud.md): Free ECS server for 1 year + courses
+- [Alibaba Cloud Free Trial](https://www.studentoffers.co/offer/alibaba-cloud-free-trial.md): $90 ECS credits + 70M free AI tokens
+- [Altair](https://www.studentoffers.co/offer/altair.md): Free 50+ CAE & simulation tools
+- [Altium Designer](https://www.studentoffers.co/offer/altium-designer.md): Free 1-year student license, renewable yearly
+- [Amazon Prime](https://www.studentoffers.co/offer/amazon-prime.md): Free 3–6 month Prime trial, then 50% off
+- [AMC Theatres](https://www.studentoffers.co/offer/amc-theatres.md): Up to 50% off tickets and concessions
+- [Amtrak](https://www.studentoffers.co/offer/amtrak.md): Save 15% on Amtrak fares when booking 1 day ahead
+- [Ansys](https://www.studentoffers.co/offer/ansys.md): Free bundle of 10+ engineering simulation tools
+- [Antares](https://www.studentoffers.co/offer/antares.md): Student discounts via Studentbeans (availability varies)
+- [Anthropic Academy](https://www.studentoffers.co/offer/anthropic-academy.md): 17+ free AI courses (no code needed)
+- [AnyDesk](https://www.studentoffers.co/offer/anydesk.md): Free access for unlimited private use
+- [Apify](https://www.studentoffers.co/offer/apify.md): 50% off paid plans for 4 months
+- [Appfigures](https://www.studentoffers.co/offer/appfigures.md): Free universal analytics and performance reports for 1 year
+- [Apple Education](https://www.studentoffers.co/offer/apple-education.md): Up to 10% off Macs iPads and accessories
+- [Apple Music](https://www.studentoffers.co/offer/apple-music.md): 1 month free, then ~50% off for up to 48 months
+- [Apple TV+](https://www.studentoffers.co/offer/apple-tv.md): Free with Apple Music Student
+- [Appwrite](https://www.studentoffers.co/offer/appwrite.md): Free Pro plan until graduation ($300/yr value)
+- [Appy Pie](https://www.studentoffers.co/offer/appy-pie.md): 50% off first year
+- [Arduino](https://www.studentoffers.co/offer/arduino.md): Free Cloud for 6 months & hardware discounts
+- [Arrow](https://www.studentoffers.co/offer/arrow.md): 20% off via Student Beans
+- [Asana](https://www.studentoffers.co/offer/asana.md): Free 12-month Starter plan
+- [ASOS](https://www.studentoffers.co/offer/asos.md): 10% off everything
+- [AssemblyAI](https://www.studentoffers.co/offer/assemblyai.md): $100 free credits, no card
+- [Astah](https://www.studentoffers.co/offer/astah.md): Free student license for Astah UML
+- [AstraSecurity](https://www.studentoffers.co/offer/astrasecurity.md): Free 6 months of Pro Plan ($144 value)
+- [AT&T Student](https://www.studentoffers.co/offer/at-t-student.md): Student plans from $10/mo + benefits based on your school
+- [Audible](https://www.studentoffers.co/offer/audible.md): Free 30-day trial + $0.99/mo for 3 months in select regions
+- [Aura AI](https://www.studentoffers.co/offer/aura-ai.md): 30% discount on premium plans
+- [Autodesk](https://www.studentoffers.co/offer/autodesk.md): Renewable 1-year subscription across Autodesk products
+- [Autograph](https://www.studentoffers.co/offer/autograph.md): Free 2D/3D motion graphics app for all
+- [Avid Pro Tools](https://www.studentoffers.co/offer/avid-pro-tools.md): Discounted education pricing
+- [Avira Prime](https://www.studentoffers.co/offer/avira-prime.md): Free 3 months of all premium features
+- [AWS Educate](https://www.studentoffers.co/offer/aws-educate.md): Free AWS learning + self-paced tracks
+- [AWS Free Tier](https://www.studentoffers.co/offer/aws-free-tier.md): $100–200 free credits for new AWS accounts
+- [Axure](https://www.studentoffers.co/offer/axure.md): Free 1-year Axure RP license — renewable annually
+- [B.AI](https://www.studentoffers.co/offer/b-ai.md): Up to 1M free credits on signup, no card required
+- [B&H Photo Video](https://www.studentoffers.co/offer/b-h-photo-video.md): Discounted pricing for students
+- [Babbel](https://www.studentoffers.co/offer/babbel.md): 65% off 3 months of lessons
+- [Barbeque Nation](https://www.studentoffers.co/offer/barbeque-nation.md): Student buffet from ₹599 with ID
+- [Basecamp](https://www.studentoffers.co/offer/basecamp.md): 100% free accounts for teachers/students
+- [Beautiful.ai](https://www.studentoffers.co/offer/beautiful-ai.md): Free Pro for 1 year ($144 value)
+- [BetterSleep](https://www.studentoffers.co/offer/bettersleep.md): $6.99/mo Premium Student Plan
+- [Bitbucket](https://www.studentoffers.co/offer/bitbucket.md): Free unlimited private repositories for students
+- [Black Sheep Coffee](https://www.studentoffers.co/offer/black-sheep-coffee.md): 20% off Black Sheep Coffee orders
+- [BlackBerry QNX](https://www.studentoffers.co/offer/blackberry-qnx.md): Free academic license
+- [Blackfire](https://www.studentoffers.co/offer/blackfire.md): Free Developer subscription
+- [Blender](https://www.studentoffers.co/offer/blender.md): Free open-source 3D creation suite
+- [Blinkist](https://www.studentoffers.co/offer/blinkist.md): 40% off Blinkist annual plan
+- [Blockchair](https://www.studentoffers.co/offer/blockchair.md): 100K free API requests for 1 year
+- [BluesMinds](https://www.studentoffers.co/offer/bluesminds.md): Free $100 credits — Gemini, GPT, DeepSeek & more API access
+- [Bohrium](https://www.studentoffers.co/offer/bohrium.md): 40% off monthly subscription plans
+- [BoltAI](https://www.studentoffers.co/offer/boltai.md): 50% off first year, plus 40% off on renewal (stacked)
+- [Boot.dev](https://www.studentoffers.co/offer/boot-dev.md): 3 months free interactive membership
+- [Bootstrap Studio](https://www.studentoffers.co/offer/bootstrap-studio.md): Free license while student
+- [Brain.fm](https://www.studentoffers.co/offer/brain-fm.md): 20% off — email .edu to support
+- [Brik](https://www.studentoffers.co/offer/brik.md): 3 months Pro free
+- [BrowserStack](https://www.studentoffers.co/offer/browserstack.md): Free Automate Mobile Plan for 1 year
+- [Bubble](https://www.studentoffers.co/offer/bubble.md): 30% discount on all paid plans and workload tiers 1 & 2
+- [Calm](https://www.studentoffers.co/offer/calm.md): 40% off annual plan for students
+- [Camber](https://www.studentoffers.co/offer/camber.md): Free Student plan: 200 CPU hrs, 75GB Storage, 200 LLM msgs
+- [Canva](https://www.studentoffers.co/offer/canva.md): Free for students through their school or campus
+- [Capture One](https://www.studentoffers.co/offer/capture-one.md): 75% off All in One subscription
+- [Cargo](https://www.studentoffers.co/offer/cargo.md): Free portfolio site while enrolled (worth $14/mo)
+- [CARTO](https://www.studentoffers.co/offer/carto.md): Free account upgrades and premium features for 2 years
+- [Cavalry](https://www.studentoffers.co/offer/cavalry.md): Free 2D animation software for everyone
+- [Chaos](https://www.studentoffers.co/offer/chaos.md): Up to 80% off Chaos student licenses
+- [Chaos Pro Upgrade](https://www.studentoffers.co/offer/chaos-pro-upgrade.md): 30% off first annual commercial license
+- [Charcoal Shack](https://www.studentoffers.co/offer/charcoal-shack.md): 10% off your total bill with student ID
+- [ChatGPT Go](https://www.studentoffers.co/offer/chatgpt-go.md): Free ChatGPT Go access for 1 year in India
+- [ChatGPT Go](https://www.studentoffers.co/offer/chatgpt-go-2.md): 3 months free for BBVA customers
+- [ChemDraw](https://www.studentoffers.co/offer/chemdraw.md): Free at participating universities
+- [Chess.com](https://www.studentoffers.co/offer/chess-com.md): 50% off Premium Membership
+- [Cinemark](https://www.studentoffers.co/offer/cinemark.md): Up to 25% off movie tickets with student ID
+- [Claude Pro](https://www.studentoffers.co/offer/claude-pro.md): Free Access at Select Universities
+- [Clay Clay Pottery](https://www.studentoffers.co/offer/clay-clay-pottery.md): 20% off weekday pottery painting sessions
+- [Clean Clip](https://www.studentoffers.co/offer/clean-clip.md): 30% off with education email (Mac)
+- [CleanShot X](https://www.studentoffers.co/offer/cleanshot-x.md): 30% educational discount
+- [Clerk](https://www.studentoffers.co/offer/clerk.md): Free Pro plan ($240/yr) for your student years
+- [ClickUp](https://www.studentoffers.co/offer/clickup.md): Contact for student discount
+- [ClinePass](https://www.studentoffers.co/offer/clinepass.md): $1.99 first month
+- [Cloudflare](https://www.studentoffers.co/offer/cloudflare.md): 1 year free Cloudflare Workers Paid Plan
+- [Cluckin](https://www.studentoffers.co/offer/cluckin.md): Select items ₹99 with student ID
+- [Codecademy Pro Student](https://www.studentoffers.co/offer/codecademy-pro-student.md): 35% off Pro for college & high school students
+- [Codecov](https://www.studentoffers.co/offer/codecov.md): Free access for public & private repos
+- [Codedex](https://www.studentoffers.co/offer/codedex.md): Free 6 months of premium Club membership
+- [CodeScene](https://www.studentoffers.co/offer/codescene.md): Free Student account
+- [Collin's](https://www.studentoffers.co/offer/collins.md): $8.80 all-day meal + free drink or soup
+- [Columbia+](https://www.studentoffers.co/offer/columbia.md): 2 AI courses free via code ($99 each)
+- [Comet](https://www.studentoffers.co/offer/comet.md): Free Pro plan
+- [Command Code](https://www.studentoffers.co/offer/command-code.md): Go plan for $1/month with $10 in credits included
+- [CompTIA Certifications](https://www.studentoffers.co/offer/comptia-certifications.md): Up to 50% off IT certification exams
+- [ConfigCat](https://www.studentoffers.co/offer/configcat.md): Free Pro plan while student
+- [Confluence](https://www.studentoffers.co/offer/confluence.md): 75% off for students via Student Beans
+- [Consensus](https://www.studentoffers.co/offer/consensus.md): Up to 40% off all paid plans
+- [CorePower Yoga](https://www.studentoffers.co/offer/corepower-yoga.md): 20% off membership and class packs
+- [Coursera Plus](https://www.studentoffers.co/offer/coursera-plus.md): Free 7-day trial + Up to 40% off on the first 3 months
+- [Coveralls](https://www.studentoffers.co/offer/coveralls.md): Free via GitHub Student Pack
+- [Craft](https://www.studentoffers.co/offer/craft.md): Free Education plan (worth $96/yr)
+- [Crocs](https://www.studentoffers.co/offer/crocs.md): 25% off sitewide
+- [Crowdin](https://www.studentoffers.co/offer/crowdin.md): Free Academic License for educational projects
+- [Cryptolens](https://www.studentoffers.co/offer/cryptolens.md): 10 free software licenses for student developers
+- [CST Studio Suite LE](https://www.studentoffers.co/offer/cst-studio-suite-le.md): Free Learning Edition license for EM simulation
+- [Curiosity](https://www.studentoffers.co/offer/curiosity.md): 90% off Pro desktop app
+- [Cursor Pro](https://www.studentoffers.co/offer/cursor-pro.md): Free year for eligible students
+- [DailyBot](https://www.studentoffers.co/offer/dailybot.md): Free Business plan for 10 users for 6 months
+- [Dashlane](https://www.studentoffers.co/offer/dashlane.md): Free Dashlane Premium for 1 year ($65 value)
+- [Databricks](https://www.studentoffers.co/offer/databricks.md): Free Edition + 25% off certs for students
+- [Databricks Academy](https://www.studentoffers.co/offer/databricks-academy.md): Free courses + 25% off certifications
+- [DataCamp](https://www.studentoffers.co/offer/datacamp.md): 3 months of free subscription access
+- [Datadog](https://www.studentoffers.co/offer/datadog.md): Free Datadog Pro account via GitHub Student Developer Pack
+- [DaVinci Resolve](https://www.studentoffers.co/offer/davinci-resolve.md): Free Hollywood-grade video editor
+- [DBeaver](https://www.studentoffers.co/offer/dbeaver.md): Free PRO (Enterprise) license (worth $255/yr)
+- [Deepgram](https://www.studentoffers.co/offer/deepgram.md): $200 free API credits
+- [Deepnote](https://www.studentoffers.co/offer/deepnote.md): Free Team plan with unlimited projects
+- [DeepScan](https://www.studentoffers.co/offer/deepscan.md): Free 6-month trial while student
+- [Dell](https://www.studentoffers.co/offer/dell.md): Up to 10% or more off for verified students
+- [Descript](https://www.studentoffers.co/offer/descript.md): 50% off Hobbyist plan
+- [Desearch](https://www.studentoffers.co/offer/desearch.md): $5 free credits on signup
+- [DevCycle](https://www.studentoffers.co/offer/devcycle.md): Free Starter plan for 1 year
+- [Dify](https://www.studentoffers.co/offer/dify.md): Free Yearly Professional plan
+- [DigitalOcean](https://www.studentoffers.co/offer/digitalocean.md): $200 platform credit for 1 year
+- [Dion Lounge & Bar](https://www.studentoffers.co/offer/dion-lounge-bar.md): Flat 25% off with student ID
+- [Disney+](https://www.studentoffers.co/offer/disney.md): 15% off annual, up to 50% with bundles
+- [DistroKid](https://www.studentoffers.co/offer/distrokid.md): 50% off first year ($12.49)
+- [Divisare](https://www.studentoffers.co/offer/divisare.md): Free 1-year full access, then €18/yr
+- [Docker Desktop](https://www.studentoffers.co/offer/docker-desktop.md): Free Docker Desktop for individuals
+- [DoorDash](https://www.studentoffers.co/offer/doordash.md): DashPass for Students is $4.99/month (vs $9.99 regular)
+- [Doppler](https://www.studentoffers.co/offer/doppler.md): Free Team subscription while student
+- [Down Dog](https://www.studentoffers.co/offer/down-dog.md): Free 4-year access for students
+- [Drime](https://www.studentoffers.co/offer/drime.md): Free 500GB cloud storage
+- [Duolingo](https://www.studentoffers.co/offer/duolingo.md): Free 1 Week Super Trial
+- [Educative](https://www.studentoffers.co/offer/educative.md): 6 months free (70+ courses) + 30% off on Plans
+- [edX](https://www.studentoffers.co/offer/edx.md): Free courses from MIT, Harvard & 250+ unis
+- [eEducation](https://www.studentoffers.co/offer/eeducation.md): Up to 30% off dental education membership
+- [ElevenReader](https://www.studentoffers.co/offer/elevenreader.md): 1 year of ElevenReader Ultra free ($99 value)
+- [Emirates](https://www.studentoffers.co/offer/emirates.md): Up to 10% off Economy, 5% off Premium/Business Class
+- [Enscape](https://www.studentoffers.co/offer/enscape.md): Free educational license for students
+- [Envato Elements](https://www.studentoffers.co/offer/envato-elements.md): 30% off for students
+- [Escape Motions](https://www.studentoffers.co/offer/escape-motions.md): 40% off all apps (lifetime licenses)
+- [ESNcard](https://www.studentoffers.co/offer/esncard.md): €10–€20 annual membership
+- [Evernote](https://www.studentoffers.co/offer/evernote.md): 40% off Professional Annual plan
+- [EveryPlate](https://www.studentoffers.co/offer/everyplate.md): Up to 50% off meal kit boxes via UNiDAYS
+- [Exa AI](https://www.studentoffers.co/offer/exa-ai.md): Free $10 search API credits
+- [Exploratory.io](https://www.studentoffers.co/offer/exploratory-io.md): Free Academic Plan for students and teachers
+- [Fender](https://www.studentoffers.co/offer/fender.md): Up to 20% off + 25% off Fender Studio
+- [Figma](https://www.studentoffers.co/offer/figma.md): Free Pro plan ($20/mo value)
+- [Filmora](https://www.studentoffers.co/offer/filmora.md): Up to 50% off Plans
+- [Firecrawl](https://www.studentoffers.co/offer/firecrawl.md): 10,000 free credits for students
+- [Fireflies](https://www.studentoffers.co/offer/fireflies.md): 10% discount on Pro, Business, or Enterprise tiers
+- [FitOn](https://www.studentoffers.co/offer/fiton.md): 6 months free FitOn PRO
+- [Flexibits Premium](https://www.studentoffers.co/offer/flexibits-premium.md): 20% educational discount on request
+- [Flipkart](https://www.studentoffers.co/offer/flipkart.md): Up to ₹13,500 off laptops + extra earbud & tablet discounts
+- [FlixBus](https://www.studentoffers.co/offer/flixbus.md): Up to 25% off Bus Tickets
+- [Flux](https://www.studentoffers.co/offer/flux.md): Free Pro Plan for students
+- [FocuSee](https://www.studentoffers.co/offer/focusee.md): 30% off all plans
+- [Folk](https://www.studentoffers.co/offer/folk.md): 50% discount for students
+- [Framer](https://www.studentoffers.co/offer/framer.md): Free Basic plan ($120/yr) + 1,000 AI credits/month
+- [Fred again.. India 2026](https://www.studentoffers.co/offer/fred-again-india-2026.md): 50% off with valid student ID (₹1,750)
+- [Freebuff](https://www.studentoffers.co/offer/freebuff.md): Free CLI agent — unlimited DeepSeek & MiniMax models
+- [freeCodeCamp](https://www.studentoffers.co/offer/freecodecamp.md): 100% free coding curriculum with certifications
+- [FreeForStudents](https://www.studentoffers.co/offer/freeforstudents.md): Student offers and discounts aggregator
+- [FreeLLMAPI](https://www.studentoffers.co/offer/freellmapi.md): 1B+ free LLM tokens/month across 60 models
+- [FreeModel](https://www.studentoffers.co/offer/freemodel.md): Free $100+ credits for 15 days — Claude & GPT
+- [Frontend Masters](https://www.studentoffers.co/offer/frontend-masters.md): Free 6-month access to all courses
+- [FUJIFILM](https://www.studentoffers.co/offer/fujifilm.md): Up to $100 off cameras, $75 off lenses
+- [Fun World](https://www.studentoffers.co/offer/fun-world.md): Flat 30% off with student ID
+- [GEICO](https://www.studentoffers.co/offer/geico.md): Up to 15% good student discount + up to $200 savings
+- [GeneCards](https://www.studentoffers.co/offer/genecards.md): Free academic access
+- [General Compute](https://www.studentoffers.co/offer/general-compute.md): Free $100 API credits on signup
+- [GitHub](https://www.studentoffers.co/offer/github.md): Free Github Pro while student
+- [GitHub Campus Experts](https://www.studentoffers.co/offer/github-campus-experts.md): Apply to join Campus Experts program while student
+- [GitHub Certification](https://www.studentoffers.co/offer/github-certification.md): Free GitHub exam voucher
+- [GitHub Codespaces](https://www.studentoffers.co/offer/github-codespaces.md): Free Pro access to cloud environments
+- [GitHub Community Exchange](https://www.studentoffers.co/offer/github-community-exchange.md): Free community access
+- [GitHub Copilot](https://www.studentoffers.co/offer/github-copilot.md): Free Copilot Student (sign-ups paused)
+- [GitHub Desktop](https://www.studentoffers.co/offer/github-desktop.md): Free GitHub Desktop for everyone
+- [GitHub Pages](https://www.studentoffers.co/offer/github-pages.md): 1 site per account + unlimited projects
+- [GitKraken](https://www.studentoffers.co/offer/gitkraken.md): 6 months free then 80% off of Pro plan
+- [GitLab for Education](https://www.studentoffers.co/offer/gitlab-for-education.md): Free Ultimate plan for students and educators
+- [GitLens](https://www.studentoffers.co/offer/gitlens.md): 6 months free then 80% off
+- [Gitpod](https://www.studentoffers.co/offer/gitpod.md): Free $10 usage credit on cloud IDE
+- [GLM Coding Plan](https://www.studentoffers.co/offer/glm-coding-plan.md): 10% off first subscription
+- [Glossika](https://www.studentoffers.co/offer/glossika.md): 55% off all plans
+- [Gname](https://www.studentoffers.co/offer/gname.md): 3 free .eu.cc domain registrations ($0/yr)
+- [GoodNotes](https://www.studentoffers.co/offer/goodnotes.md): Free for Apple School Manager schools
+- [Google AI Plus x Handshake](https://www.studentoffers.co/offer/google-ai-plus-x-handshake.md): Free for 12 months via Handshake (then $7.99/mo)
+- [Google AI Plus x Internshala](https://www.studentoffers.co/offer/google-ai-plus-x-internshala.md): Free for 12 months via Internshala (then ₹399/mo)
+- [Google Cloud Free Trial](https://www.studentoffers.co/offer/google-cloud-free-trial.md): $300 free credit for new GCP accounts
+- [Google Cloud Skills Boost](https://www.studentoffers.co/offer/google-cloud-skills-boost.md): $200 Google Cloud Skills Boost credits + Skills Arcade
+- [Google Colab Pro](https://www.studentoffers.co/offer/google-colab-pro.md): Free 1-year Pro subscription
+- [Google Gemini Pro × Jio](https://www.studentoffers.co/offer/google-gemini-pro-jio.md): Free 18-month Gemini Pro access for Jio 5G users
+- [GoRails](https://www.studentoffers.co/offer/gorails.md): Free access to all videos & lessons for 12 months
+- [Grab](https://www.studentoffers.co/offer/grab.md): Free GrabUnlimited plus student perks
+- [Grammarly](https://www.studentoffers.co/offer/grammarly.md): 50% off Grammarly via SheerID
+- [Granola](https://www.studentoffers.co/offer/granola.md): Free Business plan for 12 months
+- [Gurobi](https://www.studentoffers.co/offer/gurobi.md): Free academic license
+- [H&M](https://www.studentoffers.co/offer/h-m.md): 10% off via student partners
+- [Hack The Box](https://www.studentoffers.co/offer/hack-the-box.md): Discounted plans via Student Beans
+- [HackerRank](https://www.studentoffers.co/offer/hackerrank.md): Free skill certifications & practice
+- [Hardy's World](https://www.studentoffers.co/offer/hardy-s-world.md): ₹250 off tickets with college ID
+- [Harkins Theatres](https://www.studentoffers.co/offer/harkins-theatres.md): Discounted tickets with student ID
+- [Harvest](https://www.studentoffers.co/offer/harvest.md): 15% discount (Monthly) or 25% discount (Yearly)
+- [HazeOver](https://www.studentoffers.co/offer/hazeover.md): Free app license with minor updates
+- [Headspace](https://www.studentoffers.co/offer/headspace.md): 85% off for students
+- [Heroku](https://www.studentoffers.co/offer/heroku.md): $13/month platform credit for 24 months
+- [Hexagon](https://www.studentoffers.co/offer/hexagon.md): Free student editions of Hexagon MI tools
+- [Hexagon](https://www.studentoffers.co/offer/hexagon-2.md): Free access to Student Edition
+- [HGMD](https://www.studentoffers.co/offer/hgmd.md): Free access with academic email
+- [Highland 2](https://www.studentoffers.co/offer/highland-2.md): Free Highland 2 Pro for 1 year
+- [Honeybadger](https://www.studentoffers.co/offer/honeybadger.md): Free Small plan for 1 year
+- [Hugging Face](https://www.studentoffers.co/offer/hugging-face.md): Free Hub for university students
+- [Hulu](https://www.studentoffers.co/offer/hulu.md): 30-day trial then $1.99/mo with ads
+- [Humata](https://www.studentoffers.co/offer/humata.md): $1.99/month student plan
+- [Hyper3D](https://www.studentoffers.co/offer/hyper3d.md): $12/mo Creator plan — 50% off with education
+- [HyperWrite](https://www.studentoffers.co/offer/hyperwrite.md): 50% off monthly subscription
+- [iAsk AI](https://www.studentoffers.co/offer/iask-ai.md): Free 1 Year Pro
+- [IBM Cloud](https://www.studentoffers.co/offer/ibm-cloud.md): Free tier + $200 credits
+- [IBM SkillsBuild](https://www.studentoffers.co/offer/ibm-skillsbuild.md): Free for all students
+- [iCollections](https://www.studentoffers.co/offer/icollections.md): 40% off licenses (Mac)
+- [Icons8](https://www.studentoffers.co/offer/icons8.md): 3 months free (icons photos music)
+- [IconScout](https://www.studentoffers.co/offer/iconscout.md): 60 premium icons per month for 1 year
+- [IKEA](https://www.studentoffers.co/offer/ikea.md): Up to 15% off for students
+- [iLovePDF](https://www.studentoffers.co/offer/ilovepdf.md): Free 1 year Premium (worth $60/yr)
+- [Imgbot](https://www.studentoffers.co/offer/imgbot.md): Free optimization for all your projects
+- [India Post](https://www.studentoffers.co/offer/india-post.md): 10% off Speed Post for students
+- [Indigo](https://www.studentoffers.co/offer/indigo.md): Up to 10% off flights + 10 kg extra baggage
+- [Inference.net](https://www.studentoffers.co/offer/inference-net.md): $25 free credits on signup
+- [Intel Developer Tools](https://www.studentoffers.co/offer/intel-developer-tools.md): Free Intel academic resources
+- [InterServer](https://www.studentoffers.co/offer/interserver.md): Free web hosting for 1 year
+- [InterviewCake](https://www.studentoffers.co/offer/interviewcake.md): Full access to prep course for 3 weeks
+- [IRCTC](https://www.studentoffers.co/offer/irctc.md): Student concessions under IRCA Coaching Tariff rules
+- [J.Crew](https://www.studentoffers.co/offer/j-crew.md): 15% off your purchase
+- [Jasper AI](https://www.studentoffers.co/offer/jasper-ai.md): 20% off Jasper annual plan
+- [Jenni AI](https://www.studentoffers.co/offer/jenni-ai.md): 60% off Annual Plan
+- [JetBrains](https://www.studentoffers.co/offer/jetbrains.md): Free annual IDE subscription and more
+- [Jimis Burger](https://www.studentoffers.co/offer/jimis-burger.md): Free Classic Burger on any 2 burgers
+- [Jira Service Management](https://www.studentoffers.co/offer/jira-service-management.md): 75% off for students via Student Beans
+- [Jira Software](https://www.studentoffers.co/offer/jira-software.md): 75% off for students via Student Beans
+- [Jitter](https://www.studentoffers.co/offer/jitter.md): Free Pro plan
+- [Jotform](https://www.studentoffers.co/offer/jotform.md): Up to 50% off paid plans + free unlimited survey responses
+- [Judydoll](https://www.studentoffers.co/offer/judydoll.md): 20% off with student email verification
+- [Julius AI](https://www.studentoffers.co/offer/julius-ai.md): 50% off subscription
+- [Junior](https://www.studentoffers.co/offer/junior.md): $100 free AI credits
+- [Kaggle](https://www.studentoffers.co/offer/kaggle.md): Free GPUs & TPUs — 30 hrs/week, no card
+- [Kali Linux Revealed](https://www.studentoffers.co/offer/kali-linux-revealed.md): Free Kali Linux course + KLCP cert
+- [Kanopy](https://www.studentoffers.co/offer/kanopy.md): Free with your university login
+- [Kickbacks.ai](https://www.studentoffers.co/offer/kickbacks-ai.md): Earn while Claude Code thinks - up to $200/day
+- [Kickresume](https://www.studentoffers.co/offer/kickresume.md): Free Premium for 6 months
+- [Kimi](https://www.studentoffers.co/offer/kimi.md): Free Kimi K3 membership credits via referral draw
+- [Kiro](https://www.studentoffers.co/offer/kiro.md): Free 1st month Pro + 50 free credits/mo on free tier
+- [Kiro for Students](https://www.studentoffers.co/offer/kiro-for-students.md): 1,000 credits/month free for 1 year
+- [Kodika](https://www.studentoffers.co/offer/kodika.md): Free plan with 5 screens
+- [Krita](https://www.studentoffers.co/offer/krita.md): Free for everyone (Open source)
+- [LambdaTest](https://www.studentoffers.co/offer/lambdatest.md): Free Live Plan for 1 year
+- [LastPass](https://www.studentoffers.co/offer/lastpass.md): 20% off LastPass via Student Beans
+- [LearnSQL](https://www.studentoffers.co/offer/learnsql.md): Free SQL Basics course
+- [LeetCode Explore](https://www.studentoffers.co/offer/leetcode-explore.md): Free practice problems and guided study plans
+- [Lettermint](https://www.studentoffers.co/offer/lettermint.md): 6 months free Starter or €60 account credit
+- [Levi's](https://www.studentoffers.co/offer/levi-s.md): Up to 20% off sitewide
+- [Lightning AI](https://www.studentoffers.co/offer/lightning-ai.md): 80% off Pro plan + 100 annual credits
+- [Lightning AI Models](https://www.studentoffers.co/offer/lightning-ai-models.md): 30M free tokens/month via model APIs
+- [Linear](https://www.studentoffers.co/offer/linear.md): Free Basic or Business plan for 1 year (up to $192 value)
+- [Linearity](https://www.studentoffers.co/offer/linearity.md): 58% off Pro for students & educators
+- [LingoHub](https://www.studentoffers.co/offer/lingohub.md): 14-day free LingoHub trial
+- [Lingvist](https://www.studentoffers.co/offer/lingvist.md): 50% off subscription
+- [LinkedIn Learning](https://www.studentoffers.co/offer/linkedin-learning.md): Free 1-month trial + free access via select universities
+- [LinkedIn Premium](https://www.studentoffers.co/offer/linkedin-premium.md): Free 30-day LinkedIn Premium trial
+- [Litmaps](https://www.studentoffers.co/offer/litmaps.md): 75% off Pro with Educational License
+- [Live2D](https://www.studentoffers.co/offer/live2d.md): 80% discount on Cubism PRO 3-Year Plan
+- [LocalStack](https://www.studentoffers.co/offer/localstack.md): Free AWS emulator license
+- [Logically](https://www.studentoffers.co/offer/logically.md): 50% off Unlimited yearly plan (first year)
+- [Logitech](https://www.studentoffers.co/offer/logitech.md): 25% student discount
+- [Logitech G](https://www.studentoffers.co/offer/logitech-g.md): 25% off gaming products
+- [Loom](https://www.studentoffers.co/offer/loom.md): Up to 75% off Loom Business for education
+- [Lovable](https://www.studentoffers.co/offer/lovable.md): 50% off Pro ($12.50/mo)
+- [LucidChart](https://www.studentoffers.co/offer/lucidchart.md): Free educational account
+- [Luminar Neo](https://www.studentoffers.co/offer/luminar-neo.md): 50% off with student ID
+- [Lumion](https://www.studentoffers.co/offer/lumion.md): Free 1-year student license — renewable
+- [Lunatask](https://www.studentoffers.co/offer/lunatask.md): 50% off monthly and yearly plans
+- [MacWhisper](https://www.studentoffers.co/offer/macwhisper.md): 30% off MacWhisper on request
+- [Mailgun](https://www.studentoffers.co/offer/mailgun.md): Free plan: 100 emails/day
+- [Malwarebytes](https://www.studentoffers.co/offer/malwarebytes.md): 50% off Malwarebytes plans for students
+- [Manus](https://www.studentoffers.co/offer/manus.md): Free campus access + bonus referral credits
+- [Mapbox](https://www.studentoffers.co/offer/mapbox.md): Free Mapbox access for students
+- [MarginNote](https://www.studentoffers.co/offer/marginnote.md): 35% off Mac lifetime license
+- [Marvel Rivals](https://www.studentoffers.co/offer/marvel-rivals.md): 10 free costumes + MVPs every season
+- [Mathpix](https://www.studentoffers.co/offer/mathpix.md): 2x free usage with .edu email
+- [MATLAB](https://www.studentoffers.co/offer/matlab.md): Student Version starting from $49
+- [MATLAB & Simulink](https://www.studentoffers.co/offer/matlab-simulink.md): Student Suite for $49/year
+- [Max](https://www.studentoffers.co/offer/max.md): $5.49/mo with ads (50% off)
+- [Maxon One](https://www.studentoffers.co/offer/maxon-one.md): 1-year student license at ~45% off
+- [MD Bootstrap](https://www.studentoffers.co/offer/mdb.md): Free via school, or 50% student discount
+- [Medium](https://www.studentoffers.co/offer/medium.md): 25% off monthly or annual plan
+- [Merge Gateway](https://www.studentoffers.co/offer/merge-gateway.md): $10/mo in free LLM credits, any major model
+- [Mesh](https://www.studentoffers.co/offer/mesh.md): 3 months of Mesh Pro free ($60 value)
+- [Meshy AI](https://www.studentoffers.co/offer/meshy-ai.md): Free Pro for 1 month then $5.99 for 12 months
+- [Meta Blueprint](https://www.studentoffers.co/offer/meta-blueprint.md): Free courses + 30% off certifications
+- [Meta Model API](https://www.studentoffers.co/offer/meta-model-api.md): $20 free API credits
+- [MicroCineplex](https://www.studentoffers.co/offer/microcineplex.md): Buy 1 get 1 free ticket with student ID
+- [Microlaunch](https://www.studentoffers.co/offer/microlaunch.md): 50% off Pro Launch (reg. $49)
+- [Microsoft 365](https://www.studentoffers.co/offer/microsoft-365.md): Free Office 365 A1 plan
+- [Microsoft Azure for Teens](https://www.studentoffers.co/offer/microsoft-azure.md): Free App Services, Functions, and MySQL
+- [Microsoft Azure Students](https://www.studentoffers.co/offer/azure-for-students.md): $100 credit + always-free Azure services
+- [Milanote](https://www.studentoffers.co/offer/milanote.md): 50% off paid plans
+- [MindMac](https://www.studentoffers.co/offer/mindmac.md): 55% off (7-day trial then $20/year)
+- [MindMap AI](https://www.studentoffers.co/offer/mindmap-ai.md): Over 70% off — Basic $2.99, Pro $4.49/mo
+- [Minecraft Education](https://www.studentoffers.co/offer/minecraft-education.md): $5.04 per user/year for eligible educational institutions
+- [MiniMax](https://www.studentoffers.co/offer/minimax.md): 10% off on any Minimax Plan
+- [Miraj Cinemas](https://www.studentoffers.co/offer/miraj-cinemas.md): Free popcorn + up to 40% off tickets
+- [Miro](https://www.studentoffers.co/offer/miro.md): Free Education plan for 2 years
+- [Mistral AI](https://www.studentoffers.co/offer/mistral-ai.md): Mistral Pro for $5.99/mo (normally $14.99/mo)
+- [mnml.ai](https://www.studentoffers.co/offer/mnml-ai.md): 30% off any plan
+- [Mobbin](https://www.studentoffers.co/offer/mobbin.md): 50% off Pro for up to 2 years
+- [Modal](https://www.studentoffers.co/offer/modal.md): $30/month free compute credits
+- [Momen](https://www.studentoffers.co/offer/momen.md): 50% off on Momen plans
+- [Monday.com](https://www.studentoffers.co/offer/monday-com.md): Free Student Program for students
+- [MongoDB](https://www.studentoffers.co/offer/mongodb.md): $50 credits + MongoDB Compass + Free $150 certification
+- [Monomail](https://www.studentoffers.co/offer/monomail.md): 40% off Monomail for students
+- [Morgen](https://www.studentoffers.co/offer/morgen.md): 25% off Morgen Pro forever
+- [Motra](https://www.studentoffers.co/offer/motra.md): 50% off student plan
+- [MS Visual Studio](https://www.studentoffers.co/offer/ms-visual-studio.md): VS Community IDE + $200 Azure credit + Pluralsight access
+- [MUBI](https://www.studentoffers.co/offer/mubi.md): Free 2 months then discounted monthly rate (~%35 Off)
+- [MuJoCo](https://www.studentoffers.co/offer/mujoco.md): Free physics engine by DeepMind
+- [Murf AI](https://www.studentoffers.co/offer/murf-ai.md): 20% off any paid plan
+- [Name.com](https://www.studentoffers.co/offer/name-com.md): Free domain + SSL + privacy protection for 1 year
+- [Namecheap](https://www.studentoffers.co/offer/namecheap.md): Free .me domain + SSL for 1 year
+- [NaraRouter](https://www.studentoffers.co/offer/nararouter.md): Free 5M tokens/day (resets daily)
+- [National Express](https://www.studentoffers.co/offer/national-express.md): 20% off coach travel for students
+- [Navicat](https://www.studentoffers.co/offer/navicat.md): Free 1-year NFR license for students
+- [Nested Knowledge](https://www.studentoffers.co/offer/nested-knowledge.md): Academic plans from $19.95/user/month
+- [Netlify](https://www.studentoffers.co/offer/netlify.md): Free forever — 300 credits/mo, no card
+- [New Relic](https://www.studentoffers.co/offer/new-relic.md): Free while student ($300/month value)
+- [Newegg](https://www.studentoffers.co/offer/newegg.md): Student Store with curated discounts
+- [Nike](https://www.studentoffers.co/offer/nike.md): Up to 15% off sitewide
+- [NordVPN](https://www.studentoffers.co/offer/nordvpn.md): Up to 81% off 2-yr plan + 3 months free
+- [Northflank](https://www.studentoffers.co/offer/northflank.md): Free tier doubled for students
+- [NoteGPT](https://www.studentoffers.co/offer/notegpt.md): Free 1 Month Pro
+- [Notepad.exe](https://www.studentoffers.co/offer/notepad-exe.md): 100% Free annual subscription
+- [Notion](https://www.studentoffers.co/offer/notion.md): Free Plus plan with Notion AI trial
+- [Notion Templates](https://www.studentoffers.co/offer/notion-templates.md): Free 7 template collection
+- [Notta](https://www.studentoffers.co/offer/notta.md): 50% off Pro and Business plans
+- [NVIDIA DLI](https://www.studentoffers.co/offer/nvidia-dli.md): Free AI & GPU courses with certificates
+- [NY Times](https://www.studentoffers.co/offer/ny-times.md): Student plan ~$1/week + free access via partnered schools
+- [Obsidian](https://www.studentoffers.co/offer/obsidian.md): 40% off Sync and Publish for students
+- [Octicons](https://www.studentoffers.co/offer/octicons.md): Access to open-source icon library
+- [OnTheHub](https://www.studentoffers.co/offer/onthehub.md): Up to 95% off academic software for students
+- [OpenAI Codex](https://www.studentoffers.co/offer/openai-codex.md): $100 in Codex Credits for Students
+- [OpenCode Go](https://www.studentoffers.co/offer/opencode-go.md): First month $5, then $10/mo (regular pricing)
+- [OpenCV University](https://www.studentoffers.co/offer/opencv-university.md): 30% discount on official courses
+- [OpenSauced](https://www.studentoffers.co/offer/opensauced.md): Free courses + tools
+- [Oracle Cloud](https://www.studentoffers.co/offer/oracle-cloud.md): Free tier + $300 credits
+- [OriginLab](https://www.studentoffers.co/offer/originlab.md): Free 6-month edition or $69/yr student version
+- [Otter.ai](https://www.studentoffers.co/offer/otter-ai.md): 20% off on Otter Pro Monthly and Annual plans
+- [Overflow](https://www.studentoffers.co/offer/overflow.md): Educational discount on Pro plan
+- [Overleaf](https://www.studentoffers.co/offer/overleaf.md): Student plan — up to 56% off Standard pricing
+- [Pageclip](https://www.studentoffers.co/offer/pageclip.md): Free basic plan while student
+- [Pagecord](https://www.studentoffers.co/offer/pagecord.md): 50% off Pagecord Premium
+- [Pandora](https://www.studentoffers.co/offer/pandora.md): 60-day free trial, then $5.99/month (up to 4 years)
+- [Paperguide](https://www.studentoffers.co/offer/paperguide.md): 40% off with college email
+- [Parallels Desktop](https://www.studentoffers.co/offer/parallels-desktop.md): 50% off Pro and Standard editions
+- [Paramount+](https://www.studentoffers.co/offer/paramount.md): 50% off any plan for 1 year
+- [Pdf Pals](https://www.studentoffers.co/offer/pdf-pals.md): 50% off for students
+- [PDF2Go](https://www.studentoffers.co/offer/pdf2go.md): Free premium access with student email
+- [Peacock](https://www.studentoffers.co/offer/peacock.md): $1.99/mo for 12 months (66% off)
+- [Peloton](https://www.studentoffers.co/offer/peloton.md): $6.99/mo App One + discounted App+ membership
+- [Perlego](https://www.studentoffers.co/offer/perlego.md): 25% off for 4 months
+- [Perplexity Partner Offers](https://www.studentoffers.co/offer/perplexity-partner-offers.md): Free Perplexity Pro for 1 year
+- [Perplexity Pro](https://www.studentoffers.co/offer/perplexity-pro.md): Education Pro for $10/month
+- [Perplexity Pro x Airtel](https://www.studentoffers.co/offer/perplexity-pro-x-airtel.md): Free Perplexity Pro for 1 year for Airtel users
+- [Planet Fitness](https://www.studentoffers.co/offer/planet-fitness.md): Free summer gym access for teens 14–19
+- [Planet Labs](https://www.studentoffers.co/offer/planet-labs.md): 3,000 km²/mo free satellite imagery
+- [Plaud AI](https://www.studentoffers.co/offer/plaud-ai.md): 10% off Plaud AI note-taker devices
+- [POEditor](https://www.studentoffers.co/offer/poeditor.md): Free Plus plan for 1 year
+- [Polypane](https://www.studentoffers.co/offer/polypane.md): Free license for 1 year
+- [PomoDone](https://www.studentoffers.co/offer/pomodone.md): Free Lite plan for 2 years
+- [PopSQL](https://www.studentoffers.co/offer/popsql.md): Free Premium subscription
+- [Portfolio Box](https://www.studentoffers.co/offer/portfolio-box.md): 90% off the Pro plan for students at partner schools.
+- [Postman](https://www.studentoffers.co/offer/postman.md): Free Student Expert API certification
+- [Prezi](https://www.studentoffers.co/offer/prezi.md): Free Basic plan or special EDU pricing starting at $4/month
+- [Progressive](https://www.studentoffers.co/offer/progressive.md): Save up to 5% or more on car insurance
+- [PromeAI](https://www.studentoffers.co/offer/promeai.md): 20% off all plans
+- [Proton](https://www.studentoffers.co/offer/proton.md): Up to 75% off — Mail, VPN & Unlimited plans
+- [ProtoPie](https://www.studentoffers.co/offer/protopie.md): Discounted 1-year student license for select universities
+- [ProWritingAid](https://www.studentoffers.co/offer/prowritingaid.md): 20% student discount
+- [PTC Creo](https://www.studentoffers.co/offer/ptc-creo.md): Free Creo University Edition
+- [PUMA](https://www.studentoffers.co/offer/puma.md): Up to 15% off sitewide
+- [PureGym](https://www.studentoffers.co/offer/puregym.md): Up to 55% off + $0 joining fee
+- [QT](https://www.studentoffers.co/offer/qt.md): Free educational license
+- [Qualcomm Academy](https://www.studentoffers.co/offer/qualcomm-academy.md): 25+ Free Courses on AI, 5G & More + Certificates
+- [QuillBot](https://www.studentoffers.co/offer/quillbot.md): Up to 25% off via Student Beans & UNiDAYS
+- [Qwen Cloud](https://www.studentoffers.co/offer/qwen-cloud.md): $500+ free credits across 246 AI models
+- [RaiDrive](https://www.studentoffers.co/offer/raidrive.md): Free Education license
+- [Railway](https://www.studentoffers.co/offer/railway.md): Free 30-day trial with $5 credit
+- [RatCTF](https://www.studentoffers.co/offer/ratctf.md): Free course bundle + 12mo Premium for contributions
+- [Raycast](https://www.studentoffers.co/offer/raycast.md): 50% off Raycast Pro plan
+- [Razer](https://www.studentoffers.co/offer/razer.md): Up to 15% off laptops, peripherals and gear
+- [Read AI](https://www.studentoffers.co/offer/read-ai.md): EDU plan from $5/mo (reg. $19.75/mo)
+- [Readwise](https://www.studentoffers.co/offer/readwise.md): 50% off — email request required
+- [Ready.bd](https://www.studentoffers.co/offer/ready-bd.md): Free personal subdomain (.pro.bd, .ami.bd, .iam.bd)
+- [Reclaim AI](https://www.studentoffers.co/offer/reclaim-ai.md): 50% off for 12 months
+- [Red Hat Academy](https://www.studentoffers.co/offer/red-hat-academy.md): 50% off certification exams
+- [Red Hat Developer Sandbox](https://www.studentoffers.co/offer/red-hat-developer-sandbox.md): 30-day free Developer Sandbox trial
+- [Regal Cinemas](https://www.studentoffers.co/offer/regal-cinemas.md): Up to 50% off movie tickets and concessions
+- [Replit](https://www.studentoffers.co/offer/replit.md): 50% off Replit Core ($10/month)
+- [Requestly](https://www.studentoffers.co/offer/requestly.md): Professional plan free for 1 year ($270 value)
+- [ResearchGate](https://www.studentoffers.co/offer/researchgate.md): Free for researchers
+- [ResearchRabbit](https://www.studentoffers.co/offer/researchrabbit.md): Free forever
+- [Reve](https://www.studentoffers.co/offer/reve.md): 1 year free Pro plan
+- [Rhino3D](https://www.studentoffers.co/offer/rhino3d.md): Save up to 80% on commercial Rhino license
+- [Roboflow](https://www.studentoffers.co/offer/roboflow.md): Additional platform credits for students
+- [RoboForm](https://www.studentoffers.co/offer/roboform.md): Free for 1 year, then $12/year
+- [RoleSharp](https://www.studentoffers.co/offer/rolesharp.md): Free 6 months of Student Premium ($72 value)
+- [Rosetta Stone](https://www.studentoffers.co/offer/rosetta-stone.md): Up to 50% off paid plans
+- [Runway](https://www.studentoffers.co/offer/runway.md): 25% off any paid plan via SheerID
+- [Ryanair](https://www.studentoffers.co/offer/ryanair-erasmus.md): 10% off flights + free 20kg bag with ESNcard
+- [Sam’s Club](https://www.studentoffers.co/offer/sam-s-club.md): 60% off Club membership or $50 off Plus
+- [Samsung](https://www.studentoffers.co/offer/samsung.md): Save up to 30% Off — offer varies by country
+- [SAP Learning](https://www.studentoffers.co/offer/sap-learning.md): Free student edition + 2 free cert exams
+- [SaveTheStudent](https://www.studentoffers.co/offer/savethestudent.md): Student discount aggregator
+- [Scira](https://www.studentoffers.co/offer/scira.md): Scira Pro at $5/month
+- [SciSpace](https://www.studentoffers.co/offer/scispace.md): Up to 40% off plans and add-on credits via Discount Codes
+- [scite](https://www.studentoffers.co/offer/scite.md): Up to 40% off via Student Beans
+- [Screen Studio](https://www.studentoffers.co/offer/screen-studio.md): 40% off Screen Studio license
+- [Scrimba](https://www.studentoffers.co/offer/scrimba.md): Free 1 month Scrimba Pro (40+ courses)
+- [Scrivener](https://www.studentoffers.co/offer/scrivener.md): 15% off educational license
+- [Semaphore](https://www.studentoffers.co/offer/semaphore.md): $15/mo free credits for all users
+- [Sendwich](https://www.studentoffers.co/offer/sendwich.md): Free 3 months of Starter plan
+- [Sentry](https://www.studentoffers.co/offer/sentry.md): Free 1 year (renewable): 50K errors, 5GB logs + $20 AI/mo
+- [Setapp](https://www.studentoffers.co/offer/setapp.md): 20% off Mac + iOS annual plan
+- [Shapr3D](https://www.studentoffers.co/offer/shapr3d.md): Free 1-year educational license (renewable yearly)
+- [SheerID](https://www.studentoffers.co/offer/sheerid.md): Student verification provider for brand offers
+- [SHEIN](https://www.studentoffers.co/offer/shein.md): 15% off
+- [Shodan](https://www.studentoffers.co/offer/shodan.md): Free Membership upgrade with academic email
+- [SimpleAnalytics](https://www.studentoffers.co/offer/simpleanalytics.md): Free Starter plan for 1 year + 100k page views per month
+- [SiriusXM](https://www.studentoffers.co/offer/siriusxm.md): $1 for 3 months, then $4/mo
+- [SiteGround](https://www.studentoffers.co/offer/siteground.md): Up to 90% off first year ($1.99/mo)
+- [Sketch](https://www.studentoffers.co/offer/sketch.md): Free Education plan (macOS)
+- [Sketchy](https://www.studentoffers.co/offer/sketchy.md): 20% off for groups of 10+ students
+- [Skillshare](https://www.studentoffers.co/offer/skillshare.md): Free 1-week Skillshare trial
+- [Slack](https://www.studentoffers.co/offer/slack.md): 85% off on Pro or Business Plans via educational institution
+- [SlideCoach](https://www.studentoffers.co/offer/slidecoach.md): 2000 credits for 1 year (40 AI presentation sessions)
+- [SmartGit](https://www.studentoffers.co/offer/smartgit.md): Free full version for students
+- [Snap-on](https://www.studentoffers.co/offer/snap-on.md): Buy up to $14,000 in tools at student pricing
+- [Solid Edge](https://www.studentoffers.co/offer/solid-edge.md): Free full 3D CAD software
+- [Sonix](https://www.studentoffers.co/offer/sonix.md): 20% off all plans forever
+- [SoundCloud](https://www.studentoffers.co/offer/soundcloud.md): 1 month free, then 50% off Go+ for students
+- [Spaces for macOS](https://www.studentoffers.co/offer/spaces-for-macos.md): Spaces Pro lifetime for $6.99
+- [Spaceship](https://www.studentoffers.co/offer/spaceship.md): 40% off .com domains with code COM67
+- [SpiceJet](https://www.studentoffers.co/offer/spicejet.md): Up to 10% off domestic flights + 25 kg baggage
+- [Spotify Premium Student](https://www.studentoffers.co/offer/spotify-premium-student.md): Up to 50% off Premium (+ free Hulu in US)
+- [SQLGate](https://www.studentoffers.co/offer/sqlgate.md): Free Standard subscription for 1 year
+- [SQLPro Studio](https://www.studentoffers.co/offer/sqlpro-studio.md): Free 1-year license
+- [Squarespace](https://www.studentoffers.co/offer/squarespace.md): 50% off your first year on any annual website plan
+- [Stable Pizza](https://www.studentoffers.co/offer/stable-pizza.md): Student discounts available (check local)
+- [Starbucks](https://www.studentoffers.co/offer/starbucks.md): 20% off in select markets
+- [State Farm](https://www.studentoffers.co/offer/state-farm.md): Up to 25% good student discount
+- [Strava](https://www.studentoffers.co/offer/strava.md): 30 days free, then 50% off Annual Subscription
+- [Stripe](https://www.studentoffers.co/offer/stripe.md): Waived fees on first $1000 revenue
+- [Student App Centre](https://www.studentoffers.co/offer/student-app-centre.md): 100+ student discounts on apps
+- [Student Beans](https://www.studentoffers.co/offer/student-beans.md): Student verification + discount portal
+- [Student Edge](https://www.studentoffers.co/offer/student-edge.md): Student discounts provider and aggregator
+- [Student Price Card (SPC)](https://www.studentoffers.co/offer/student-price-card-spc.md): $11.99 per year membership
+- [Student Saviour](https://www.studentoffers.co/offer/student-saviour.md): Student discounts provider and aggregator
+- [StudentAI](https://www.studentoffers.co/offer/studentai.md): Free starter plan with 10,000 credits & 106+ AI study tools
+- [Studentwowdeals](https://www.studentoffers.co/offer/studentwowdeals.md): Access to 500+ student discounts
+- [Study Smarter Deals](https://www.studentoffers.co/offer/study-smarter-deals.md): Student discounts provider and aggregator
+- [StyleCI](https://www.studentoffers.co/offer/styleci.md): Student discount on paid plans
+- [Sunsama](https://www.studentoffers.co/offer/sunsama.md): 50% off for students
+- [SuperGrok](https://www.studentoffers.co/offer/supergrok.md): Free 7-day trial + Grok Build CLI
+- [Superhuman](https://www.studentoffers.co/offer/superhuman.md): Free 1 month + $10/month (67% off) on request
+- [Superhuman Docs](https://www.studentoffers.co/offer/coda.md): Free Pro or 80% off for a year
+- [Superwhisper](https://www.studentoffers.co/offer/superwhisper.md): 40% off Pro
+- [Surfshark VPN](https://www.studentoffers.co/offer/surfshark-vpn.md): 87% off + 3 months extra from $1.99/mo
+- [SurveyHero](https://www.studentoffers.co/offer/surveyhero.md): Student account — 100% free
+- [Swiggy](https://www.studentoffers.co/offer/swiggy.md): Swiggy One Lite for 3 months at Rs 9 and more
+- [SymfonyCasts](https://www.studentoffers.co/offer/symfonycasts.md): 3 months free subscription
+- [Tableau Desktop](https://www.studentoffers.co/offer/tableau-desktop.md): Tableau Desktop Public Edition free
+- [TablePlus](https://www.studentoffers.co/offer/tableplus.md): 50% off for students
+- [Tabula](https://www.studentoffers.co/offer/tabula.md): 60% off Solo plan with student email
+- [Target Circle Student](https://www.studentoffers.co/offer/target-circle-student.md): Target Circle 360 at $4.99/mo (55% off)
+- [Taskade](https://www.studentoffers.co/offer/taskade.md): Free for Education or 50% off annual Pro
+- [Tavily](https://www.studentoffers.co/offer/tavily.md): 4 months free on Project Plan ($120 value)
+- [Tella](https://www.studentoffers.co/offer/tella.md): Free Tella plan for students
+- [Tencent Cloud](https://www.studentoffers.co/offer/tencent-cloud.md): Free 3-month VPS + free tier on 30+ cloud products
+- [Termius](https://www.studentoffers.co/offer/termius.md): Free Pro & Team plans ($240/yr)
+- [Testmail](https://www.studentoffers.co/offer/testmail.md): Free Essential plan with unlimited emails
+- [The Economist](https://www.studentoffers.co/offer/the-economist.md): Free annual Espresso subscription (worth $99/yr)
+- [The Globe and Mail](https://www.studentoffers.co/offer/the-globe-and-mail.md): $1 per week for 52 weeks
+- [The Great Escape Game](https://www.studentoffers.co/offer/the-great-escape-game.md): £19 student tickets + free drink Tuesdays
+- [The North Face](https://www.studentoffers.co/offer/the-north-face.md): Up to 15% off sitewide
+- [ThemeIsle](https://www.studentoffers.co/offer/themeisle.md): Free Neve Agency WordPress theme for 1 year
+- [Themis Barbecue House](https://www.studentoffers.co/offer/themis-barbecue-house.md): Flat 20% off Mon–Thu with ID
+- [ThesisAI](https://www.studentoffers.co/offer/thesisai.md): 20% off Pro plan
+- [think-cell](https://www.studentoffers.co/offer/think-cell.md): Free 12-month license (full version)
+- [Tidal](https://www.studentoffers.co/offer/tidal.md): 30-day free trial then 50%+ off ($5.49/mo)
+- [Tinder](https://www.studentoffers.co/offer/tinder.md): 50% off Plus/Gold Plans via UNiDAYS
+- [TinyFish](https://www.studentoffers.co/offer/tinyfish.md): Free web search + fetch + 500 agent credits
+- [ToDiagram](https://www.studentoffers.co/offer/todiagram.md): Pro Plan including full editor access
+- [Totum](https://www.studentoffers.co/offer/totum.md): Access to hundreds of UK student discounts
+- [Tower](https://www.studentoffers.co/offer/tower.md): Free Pro license while student
+- [Transloadit](https://www.studentoffers.co/offer/transloadit.md): Free 5 GB/month via GitHub Student Pack
+- [Travis CI](https://www.studentoffers.co/offer/travis-ci.md): Free Private builds for students
+- [Trello](https://www.studentoffers.co/offer/trello.md): 75% off for students via Student Beans
+- [TryHackMe](https://www.studentoffers.co/offer/tryhackme.md): 20% off annual subscriptions
+- [Typeform](https://www.studentoffers.co/offer/typeform.md): Up to 50% off
+- [Typeless](https://www.studentoffers.co/offer/typeless.md): 50% off Pro plan
+- [Uber One Student](https://www.studentoffers.co/offer/uber-one-student.md): 4-week free trial then 50% off at $4.99/month
+- [Udemy](https://www.studentoffers.co/offer/udemy.md): 10-60% off via partner verifications
+- [Udio](https://www.studentoffers.co/offer/udio.md): 50% off for 6 months
+- [Ulysses](https://www.studentoffers.co/offer/ulysses.md): $10.99 per 6-month plan
+- [Undermind](https://www.studentoffers.co/offer/undermind.md): 73% off Pro plan with academic pricing
+- [UNiDAYS](https://www.studentoffers.co/offer/unidays.md): Student verification platform for exclusive brand discounts
+- [Unity Student](https://www.studentoffers.co/offer/unity-student.md): Free Unity Student plan
+- [Unreal Engine](https://www.studentoffers.co/offer/unreal-engine.md): Free for students for their academic work and personal use
+- [UpToDate](https://www.studentoffers.co/offer/uptodate.md): Up to 50% off — student rate from $219/yr
+- [UXPin](https://www.studentoffers.co/offer/uxpin.md): Free for students
+- [v0](https://www.studentoffers.co/offer/v0.md): Free 1 year of v0 Premium
+- [Vaadin](https://www.studentoffers.co/offer/vaadin.md): Free Pro subscription license
+- [Vercel](https://www.studentoffers.co/offer/vercel.md): Free Hobby plan — no credit card needed
+- [Visme](https://www.studentoffers.co/offer/visme.md): 3 months free Starter plan access
+- [Visual Studio Code](https://www.studentoffers.co/offer/visual-studio-code.md): Free coding packs (Java, Python or .NET)
+- [Visual Studio Community](https://www.studentoffers.co/offer/visual-studio-community.md): Free Visual Studio Community
+- [VOXI](https://www.studentoffers.co/offer/voxi.md): Up to 5x data + 1 month free from £10/mo
+- [VS Code Education](https://www.studentoffers.co/offer/vs-code-education.md): Free online coding learning environment
+- [Vultr](https://www.studentoffers.co/offer/vultr.md): Free $300 Credits for new accounts
+- [Waffle Forever](https://www.studentoffers.co/offer/waffle-forever.md): 20% off with student ID
+- [Walmart+](https://www.studentoffers.co/offer/walmart.md): 30-day trial then $6.47/mo (50% off Walmart+)
+- [Weights & Biases](https://www.studentoffers.co/offer/weights-biases.md): Free Pro for academic institutions
+- [Whimsical](https://www.studentoffers.co/offer/whimsical.md): Free Pro plan with a limit of 100 total AI actions
+- [Wispr Flow](https://www.studentoffers.co/offer/wispr-flow.md): 3 months free Pro Plan then 50% off
+- [Wix](https://www.studentoffers.co/offer/wix.md): 50% off yearly premium for students
+- [Wonderla](https://www.studentoffers.co/offer/wonderla.md): Up to 30% off tickets + food with college ID
+- [Wordtune](https://www.studentoffers.co/offer/wordtune.md): 30% off paid plans
+- [WorkingCopy](https://www.studentoffers.co/offer/workingcopy.md): Free Pro while student
+- [Workona](https://www.studentoffers.co/offer/workona.md): 50% discount on individual Pro and Team subscriptions
+- [Writer](https://www.studentoffers.co/offer/writer.md): 20% off Starter plan
+- [Xero](https://www.studentoffers.co/offer/xero.md): Free 30-day trial for students
+- [Xojo](https://www.studentoffers.co/offer/xojo.md): Free Pro license while student
+- [Yellow Shoes](https://www.studentoffers.co/offer/yellow-shoes.md): 10% off for students
+- [YNAB](https://www.studentoffers.co/offer/ynab.md): Free YNAB for 1 year
+- [YouTube Music Premium](https://www.studentoffers.co/offer/youtube-music.md): 1 month free, then ~50% off for up to 4 years
+- [YouTube Premium](https://www.studentoffers.co/offer/youtube-premium.md): 1 month free, then ~50% off for up to 48 months
+- [Zeabur](https://www.studentoffers.co/offer/zeabur.md): 20% off first month via referral
+- [Zed](https://www.studentoffers.co/offer/zed.md): Free Zed Pro for 1 year
+- [Zen Mode for macOS](https://www.studentoffers.co/offer/zen-mode-for-macos.md): $6.99 Zen Mode student plan
+- [ZenMux](https://www.studentoffers.co/offer/zenmux.md): Free access to Step 3.7 Flash, GLM 4.7 Flash, GLM 4.6V Flash
+- [Zeplin](https://www.studentoffers.co/offer/zeplin.md): Free Basic 3-project plan for 1 year
+- [Zipcar](https://www.studentoffers.co/offer/zipcar.md): Up to $65 off annual membership
+- [Zyte](https://www.studentoffers.co/offer/zyte.md): 1 Free Forever Scrapy Cloud Unit 
+
+## Guides
+- [Best Free Cloud for Students 2026 — AWS vs Azure vs GCP vs DigitalOcean](https://www.studentoffers.co/blog/aws-vs-azure-vs-gcp-for-students.md): Best free cloud for students in 2026 — no credit card options, always-free tiers, and which platform leads to cloud jobs. Covers Azure, GCP, AWS, DigitalOcean, and Oracle.
+
+## Agent Endpoints
+- [tools.md](https://www.studentoffers.co/tools.md): Machine-readable offer directory for agents and integrations.
+- [Favorites](https://www.studentoffers.co/favorites): Client-side saved offers page.
+- [llms-full.txt](https://www.studentoffers.co/llms-full.txt): Canonical markdown corpus for documentation and guides.
+- [skill.md](https://www.studentoffers.co/skill.md): Product-specific operating guidance for agents.
+- [MCP](https://www.studentoffers.co/mcp): Structured agent tools for searching docs and fetching pages.
