@@ -46,6 +46,9 @@
     />
     <title>ezoi</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="theme-color" content="#060814" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#eef2ff" media="(prefers-color-scheme: light)" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -98,6 +101,16 @@
   </head>
   <body>
     <div class="bg-grid" aria-hidden="true"></div>
+    <div id="scroll-progress" aria-hidden="true"></div>
+
+    <button
+      id="theme-toggle"
+      class="theme-toggle"
+      type="button"
+      aria-label="Switch theme"
+      aria-pressed="false"
+    >☀</button>
+
     <button
       class="menu-toggle"
       type="button"
@@ -165,8 +178,17 @@
               Contact Me
             </a>
             <div class="contact">
-              <p>✉ salman.nadeem.com@gmail.com</p>
-              <p>☎ +923317057737</p>
+              <p>
+                ✉ <span id="email-text">salman.nadeem.com@gmail.com</span>
+                <button
+                  id="copy-email"
+                  class="copy-btn"
+                  type="button"
+                  data-email="salman.nadeem.com@gmail.com"
+                  aria-label="Copy email address"
+                >⧉ Copy</button>
+              </p>
+              <p>☎ +923****7737</p>
               <p>📍 392-E block Shah Rukn-e-Alam colony, Multan</p>
             </div>
           </div>
@@ -359,39 +381,25 @@
         </section>
       </section>
     </main>
-    <script>
-      const menuToggle = document.querySelector(".menu-toggle");
-      const sidebarMenu = document.getElementById("sidebar-menu");
-      const menuOverlay = document.querySelector(".menu-overlay");
 
-      const closeMenu = () => {
-        sidebarMenu.classList.remove("is-open");
-        menuOverlay.hidden = true;
-        menuToggle.setAttribute("aria-expanded", "false");
-        sidebarMenu.setAttribute("aria-hidden", "true");
-      };
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">↑</button>
 
-      const openMenu = () => {
-        sidebarMenu.classList.add("is-open");
-        menuOverlay.hidden = false;
-        menuToggle.setAttribute("aria-expanded", "true");
-        sidebarMenu.setAttribute("aria-hidden", "false");
-      };
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
-      menuToggle.addEventListener("click", () => {
-        if (sidebarMenu.classList.contains("is-open")) {
-          closeMenu();
-          return;
-        }
-        openMenu();
-      });
+    <div id="cookie-banner" class="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite" hidden>
+      <div class="cookie-inner">
+        <p class="cookie-text">
+          We use cookies to remember your theme preference and keep the site fast.
+          See our <a href="/privacy" target="_blank" rel="noopener noreferrer">privacy policy</a>.
+        </p>
+        <div class="cookie-actions">
+          <button id="cookie-accept" class="cookie-btn cookie-accept" type="button">Accept all</button>
+          <button id="cookie-reject" class="cookie-btn cookie-reject" type="button">Essential only</button>
+          <button id="cookie-close" class="cookie-btn cookie-close" type="button" aria-label="Dismiss">✕</button>
+        </div>
+      </div>
+    </div>
 
-      menuOverlay.addEventListener("click", closeMenu);
-      window.addEventListener("keydown", (event) => {
-        if (event.key === "Escape" && sidebarMenu.classList.contains("is-open")) {
-          closeMenu();
-        }
-      });
-    </script>
+    <script src="./js/app.js" defer></script>
   </body>
 </html>
