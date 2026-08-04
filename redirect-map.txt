@@ -1,0 +1,17 @@
+# Redirect map — retired tools (previously under /tools/<name>/)
+# Source path -> Destination (301 Permanent)
+/tools/word-counter        -> /tools/   (replaced by studentoffers.co tools hub)
+/tools/case-converter      -> /tools/
+/tools/base64              -> /tools/
+/tools/json-formatter      -> /tools/
+/tools/url-encoder         -> /tools/
+/tools/password-generator  -> /tools/
+/tools/color-converter     -> /tools/
+/tools/timestamp-converter -> /tools/
+/tools/text-diff           -> /tools/
+/tools/lorem-ipsum         -> /tools/
+
+# How redirects are applied per host:
+#   - Netlify / Cloudflare Pages: read _redirects automatically.
+#   - GitHub Pages (this site): handled client-side in 404.html via
+#     the REDIRECTS object below (301-equivalent, instant).

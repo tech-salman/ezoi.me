@@ -1,0 +1,13 @@
+# URL map: retired tool URLs from the previous portfolio build.
+# These tools were removed; requests are mapped to the replacement experience.
+# Format: <from> <to> <status>
+/tools/word-counter      /tools/ 301
+/tools/case-converter    /tools/ 301
+/tools/base64            /tools/ 301
+/tools/json-formatter    /tools/ 301
+/tools/url-encoder       /tools/ 301
+/tools/password-generator /tools/ 301
+/tools/color-converter   /tools/ 301
+/tools/timestamp-converter /tools/ 301
+/tools/text-diff         /tools/ 301
+/tools/lorem-ipsum       /tools/ 301

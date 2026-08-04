@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="./favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="./favicon.svg" />
+    <title>Muhammad Salman Nadeem | Full-Stack Web & App Developer Portfolio</title>
     <meta
       name="description"
       content="Muhammad Salman Nadeem is a Full-Stack Web/App Developer focused on cybersecurity, cloud computing, and scalable web applications."
@@ -32,6 +36,8 @@
       property="og:image"
       content="https://github.com/user-attachments/assets/3c0701ba-51b9-4218-abe0-32da947742bc"
     />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Portrait of Muhammad Salman Nadeem" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://ezoi.me/" />
@@ -98,7 +104,19 @@
         ]
       }
     </script>
-  </head>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ezoi.me/" },
+          { "@type": "ListItem", "position": 2, "name": "Tools", "item": "https://ezoi.me/tools/" },
+          { "@type": "ListItem", "position": 3, "name": "Blogs", "item": "https://ezoi.me/blogs/" },
+          { "@type": "ListItem", "position": 4, "name": "Pages", "item": "https://ezoi.me/pages/" },
+          { "@type": "ListItem", "position": 5, "name": "IslamAI", "item": "https://ezoi.me/islamAI/" }
+        ]
+      }
+    </script>
   <body>
     <div class="bg-grid" aria-hidden="true"></div>
     <div id="scroll-progress" aria-hidden="true"></div>

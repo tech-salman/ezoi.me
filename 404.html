@@ -78,14 +78,37 @@
 </head>
 <body>
   <div class="bg-grid"></div>
-  
+
   <div class="error-page">
     <h1 class="error-code">404</h1>
     <p class="error-message">Oops! The page you're looking for doesn't exist.</p>
-    
+
     <a href="/" class="return-btn">
       ← Return to ezoi.me
     </a>
   </div>
+
+  <script>
+    // Map retired tool URLs (/tools/<name>/) to the tools hub with a 301-style redirect.
+    (function () {
+      var REDIRECTS = {
+        "/tools/word-counter": "/tools/",
+        "/tools/case-converter": "/tools/",
+        "/tools/base64": "/tools/",
+        "/tools/json-formatter": "/tools/",
+        "/tools/url-encoder": "/tools/",
+        "/tools/password-generator": "/tools/",
+        "/tools/color-converter": "/tools/",
+        "/tools/timestamp-converter": "/tools/",
+        "/tools/text-diff": "/tools/",
+        "/tools/lorem-ipsum": "/tools/"
+      };
+      var p = location.pathname.replace(/\/+$/, "") || "/";
+      if (REDIRECTS[p]) {
+        // Replace state so back button doesn't loop; treat as permanent move.
+        window.location.replace(REDIRECTS[p]);
+      }
+    })();
+  </script>
 </body>
 </html>
