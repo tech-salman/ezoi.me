@@ -1,9 +1,8 @@
-# Deploy static content to GitHub Pages.
+# Deploy static content to GitHub Pages (Actions mode).
 #
-# This repo's Pages source is "Deploy from a branch" (branch: main, path: /),
-# so GitHub Pages serves files directly from main on every push — no
-# actions/deploy-pages step is needed (and using one 404s in branch mode).
-# This workflow just checks out and verifies the build stays green.
+# This repo's Pages is in "build_type: workflow" mode, meaning it serves only
+# from GitHub Actions deployments (not directly from the branch). This workflow
+# builds the artifact and publishes it via actions/deploy-pages.
 
 name: Deploy static content to Pages
 
@@ -14,14 +13,28 @@ on:
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  verify:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Sanity check
-        run: |
-          test -f index.html || (echo "index.html missing" && exit 1)
-          echo "Site content present; GitHub Pages serves from main automatically."
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
