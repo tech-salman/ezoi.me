@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow" />
+    <!-- Strict CSP: only this origin's assets, only api.github.com for fetches, no framing (clickjacking), no inline scripts. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; script-src 'self'; connect-src https://api.github.com; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+    />
     <title>ezoi.me — Admin Console</title>
     <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="admin.css" />
@@ -27,6 +32,13 @@
         <p class="fineprint">
           This console edits <strong>ezoi.me</strong> directly. After saving, changes deploy
           automatically via GitHub Pages.
+        </p>
+        <p class="warn-note">
+          ⚠️ <strong>Security model:</strong> this is a <em>static-only</em> console — the login
+          runs in your browser and the GitHub token never leaves the tab. There is no server,
+          so the gate is <strong>obfuscation, not real protection</strong>. Anyone who can read
+          this page's source can attempt the password. Use a strong scoped token, and prefer a
+          real edge gate (see <code>admin/SECURITY.md</code>).
         </p>
       </form>
     </section>
@@ -61,7 +73,7 @@
             </p>
           </div>
           <div class="token-form">
-            <input id="token-input" type="password" placeholder="github_pat_..." />
+            <input id="token-input" type="password" autocomplete="off" placeholder="github_pat_..." />
             <button class="btn btn-primary" id="token-connect">Connect</button>
           </div>
         </div>
@@ -161,12 +173,20 @@
             </div>
             <div class="setting-row danger">
               <div>
-                <strong>Security note</strong>
+                <strong>Security note (read this)</strong>
                 <p class="muted small">
-                  Authentication runs entirely in your browser (PBKDF2 of your password). The
-                  GitHub token lives only in this tab's memory and is sent only to
-                  <code>api.github.com</code>. There is no server storing secrets. For production,
-                  lock this down with a scoped token and consider IP/rate limits.
+                  This is a <strong>static-only</strong> console — there is no server. The login runs
+                  entirely in your browser (PBKDF2 of your password), and the password hash is
+                  visible in <code>admin.js</code>. That means this gate is
+                  <strong>obfuscation, not real authentication</strong>: anyone who can fetch
+                  <code>/admin/</code> can attempt the password offline.
+                </p>
+                <p class="muted small">
+                  What IS real protection here: (1) the GitHub token lives only in this tab's memory
+                  and is sent only to <code>api.github.com</code>; (2) a strict CSP blocks injected
+                  scripts from exfiltrating that token; (3) a 30-min idle timeout and a 5-attempt /
+                  15-min lockout slow casual guessing. For genuine protection, put a real gate in
+                  front of <code>/admin/</code> at the edge (see <code>admin/SECURITY.md</code>).
                 </p>
               </div>
             </div>

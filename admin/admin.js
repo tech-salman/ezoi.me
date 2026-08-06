@@ -33,9 +33,54 @@
   /* ===================== State ===================== */
   var state = {
     authed: false,
-    token: null, // GitHub PAT (memory only)
+    token: null, // GitHub PAT (memory only — cleared on tab unload)
     shaCache: {} // path -> latest blob sha
   };
+
+  /* ===================== Brute-force lockout ===================== */
+  // Static-only: best-effort client throttling, NOT real security.
+  // Anyone can clear it (localStorage) — it only slows casual guessing.
+  var LOCKOUT_KEY = "ezoi_admin_lock";
+  var MAX_ATTEMPTS = 5;
+  var LOCKOUT_MS = 15 * 60 * 1000; // 15 minutes
+  function attemptsLeft() {
+    try {
+      var r = JSON.parse(localStorage.getItem(LOCKOUT_KEY) || "{}");
+      if (r.until && Date.now() < r.until) return -1; // locked
+      if (r.until && Date.now() >= r.until) { localStorage.removeItem(LOCKOUT_KEY); return MAX_ATTEMPTS; }
+      return MAX_ATTEMPTS - (r.count || 0);
+    } catch (e) { return MAX_ATTEMPTS; }
+  }
+  function recordAttempt(ok) {
+    try {
+      var r = JSON.parse(localStorage.getItem(LOCKOUT_KEY) || "{}");
+      if (ok) { localStorage.removeItem(LOCKOUT_KEY); return; }
+      r.count = (r.count || 0) + 1;
+      if (r.count >= MAX_ATTEMPTS) r.until = Date.now() + LOCKOUT_MS;
+      localStorage.setItem(LOCKOUT_KEY, JSON.stringify(r));
+    } catch (e) {}
+  }
+  function lockRemaining() {
+    try {
+      var r = JSON.parse(localStorage.getItem(LOCKOUT_KEY) || "{}");
+      if (r.until && Date.now() < r.until) return Math.ceil((r.until - Date.now()) / 1000);
+    } catch (e) {}
+    return 0;
+  }
+
+  /* ===================== Session timeout ===================== */
+  var SESSION_MS = 30 * 60 * 1000; // 30 min idle
+  var sessionTimer = null;
+  function armSession() {
+    clearTimeout(sessionTimer);
+    sessionTimer = setTimeout(function () {
+      state.authed = false; state.token = null;
+      hide($("app-view")); show($("login-view"));
+      toast("Session expired — please sign in again", "err");
+    }, SESSION_MS);
+  }
+  // clear token if the tab is closed/refreshed
+  window.addEventListener("pagehide", function () { state.token = null; });
 
   /* ===================== DOM ===================== */
   function $(id) { return document.getElementById(id); }
@@ -160,20 +205,29 @@
   /* ===================== Auth flow ===================== */
   $("login-form").addEventListener("submit", function (e) {
     e.preventDefault();
-    var u = $("login-user").value.trim();
-    var p = $("login-pass").value;
-    if (u !== CONFIG.adminUser) {
-      showErr($("login-error"), "Unknown username.");
+    if (lockRemaining() > 0) {
+      showErr($("login-error"), "Too many attempts. Try again in " + lockRemaining() + "s.");
       return;
     }
+    // No username enumeration: check user + password together, single generic error.
+    var u = $("login-user").value.trim();
+    var p = $("login-pass").value;
     var btn = $("login-btn");
     btn.disabled = true;
     btn.textContent = "Verifying…";
     verifyPassword(p).then(function (ok) {
-      if (!ok) { showErr($("login-error"), "Incorrect password."); return; }
+      if (!ok || u !== CONFIG.adminUser) {
+        recordAttempt(false);
+        var left = attemptsLeft();
+        var extra = left > 0 ? " (" + left + " attempt" + (left === 1 ? "" : "s") + " left)" : " (locked for 15 min)";
+        showErr($("login-error"), "Invalid username or password." + (lockRemaining() > 0 ? "" : extra));
+        return;
+      }
+      recordAttempt(true);
       state.authed = true;
       hide($("login-view"));
       show($("app-view"));
+      armSession();
       initApp();
     }).catch(function () {
       showErr($("login-error"), "Browser missing crypto support (use HTTPS/modern browser).");
@@ -186,6 +240,7 @@
 
   $("logout-btn").addEventListener("click", function () {
     state.authed = false; state.token = null;
+    clearTimeout(sessionTimer);
     hide($("app-view")); show($("login-view"));
     $("login-pass").value = "";
   });
@@ -242,6 +297,11 @@
     // already have token? keep banner logic ready but show it
     show($("token-banner"));
     $("settings-repo").textContent = CONFIG.user + "/" + CONFIG.repo + " @ " + CONFIG.branch;
+
+    // refresh idle timer on any interaction
+    ["click", "keydown", "input"].forEach(function (ev) {
+      document.addEventListener(ev, armSession, true);
+    });
   }
 
   function connectToken() {

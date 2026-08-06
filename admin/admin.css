@@ -38,6 +38,11 @@ body {
 .muted { color: var(--muted); }
 .small { font-size: 0.82rem; }
 .fineprint { font-size: 0.74rem; color: var(--muted); margin-top: 18px; line-height: 1.5; }
+.warn-note {
+  font-size: 0.72rem; color: var(--muted); margin-top: 14px; line-height: 1.55;
+  border: 1px solid rgba(255, 107, 125, 0.4); border-radius: 10px;
+  padding: 10px 12px; background: rgba(255, 107, 125, 0.06);
+}
 a { color: var(--accent); }
 code {
   font-family: var(--mono);
