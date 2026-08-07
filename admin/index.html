@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <!-- Strict CSP: only this origin's assets, only api.github.com for fetches, no framing (clickjacking), no inline scripts. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; script-src 'self'; connect-src https://api.github.com; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+    />
+    <title>ezoi.me — Admin Console</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body data-theme="dark">
+    <!-- ============ LOGIN ============ -->
+    <section id="login-view" class="login-view">
+      <form id="login-form" class="login-card" autocomplete="off">
+        <div class="brand">
+          <span class="brand-mark">⚡</span>
+          <span>ezoi.me</span>
+        </div>
+        <h1>Admin Console</h1>
+        <p class="muted">Sign in to manage the live site.</p>
+        <label>Username</label>
+        <input id="login-user" type="text" autocomplete="username" placeholder="admin" />
+        <label>Password</label>
+        <input id="login-pass" type="password" autocomplete="current-password" placeholder="••••••" />
+        <button type="submit" class="btn btn-primary" id="login-btn">Sign in</button>
+        <div id="login-error" class="form-error" hidden></div>
+        <p class="fineprint">
+          This console edits <strong>ezoi.me</strong> directly. After saving, changes deploy
+          automatically via GitHub Pages.
+        </p>
+        <p class="warn-note">
+          ⚠️ <strong>Security model:</strong> this is a <em>static-only</em> console — the login
+          runs in your browser and the GitHub token never leaves the tab. There is no server,
+          so the gate is <strong>obfuscation, not real protection</strong>. Anyone who can read
+          this page's source can attempt the password. Use a strong scoped token, and prefer a
+          real edge gate (see <code>admin/SECURITY.md</code>).
+        </p>
+      </form>
+    </section>
+
+    <!-- ============ APP ============ -->
+    <section id="app-view" class="app-view" hidden>
+      <header class="topbar">
+        <div class="topbar-left">
+          <span class="brand-mark">⚡</span>
+          <strong>ezoi.me</strong><span class="muted">/ admin</span>
+        </div>
+        <div class="topbar-right">
+          <span id="repo-chip" class="chip">tech-salman/ezoi.me</span>
+          <span id="conn-chip" class="chip chip-off">not connected</span>
+          <button class="btn btn-ghost" id="logout-btn">Logout</button>
+        </div>
+      </header>
+
+      <!-- Token setup -->
+      <div id="token-banner" class="token-banner" hidden>
+        <div class="token-inner">
+          <div>
+            <strong>Connect a GitHub token</strong>
+            <p class="muted small">
+              Generates commits to the repo. Use a
+              <a href="https://github.com/settings/tokens?type=beta" target="_blank" rel="noopener"
+                >fine-grained PAT</a
+              >
+              scoped to <code>tech-salman/ezoi.me</code> with <code>Contents: Read &amp; Write</code>.
+              The token is kept only in this browser tab and sent solely to
+              <code>api.github.com</code>.
+            </p>
+          </div>
+          <div class="token-form">
+            <input id="token-input" type="password" autocomplete="off" placeholder="github_pat_..." />
+            <button class="btn btn-primary" id="token-connect">Connect</button>
+          </div>
+        </div>
+        <div id="token-error" class="form-error" hidden></div>
+      </div>
+
+      <div class="layout">
+        <nav class="sidebar">
+          <button class="nav-item active" data-panel="files">📄 File Editor</button>
+          <button class="nav-item" data-panel="blog">📝 New Blog Post</button>
+          <button class="nav-item" data-panel="deploy">🚀 Deploy &amp; History</button>
+          <button class="nav-item" data-panel="settings">⚙️ Settings</button>
+        </nav>
+
+        <main class="content">
+          <!-- FILE EDITOR -->
+          <div class="panel active" id="panel-files">
+            <div class="panel-head">
+              <h2>Edit Site Files</h2>
+              <div class="row">
+                <select id="file-select" class="select"></select>
+                <button class="btn btn-ghost" id="file-reload">Reload</button>
+                <button class="btn btn-ghost" id="file-new">New file…</button>
+              </div>
+            </div>
+            <div id="editor-meta" class="muted small"></div>
+            <textarea id="editor" class="editor" spellcheck="false" placeholder="Select a file to begin…"></textarea>
+            <div class="row between">
+              <span id="editor-count" class="muted small">0 chars</span>
+              <div class="row">
+                <button class="btn btn-ghost" id="editor-cancel">Discard</button>
+                <button class="btn btn-primary" id="editor-save">Save to live site</button>
+              </div>
+            </div>
+            <div id="editor-status" class="status-line" hidden></div>
+          </div>
+
+          <!-- BLOG -->
+          <div class="panel" id="panel-blog">
+            <div class="panel-head"><h2>Create a Blog Post</h2></div>
+            <div class="form-grid">
+              <label>Title<input id="blog-title" type="text" placeholder="My new article" /></label>
+              <label>Category
+                <select id="blog-category" class="select">
+                  <option value="articles">articles</option>
+                  <option value="tricks">tricks</option>
+                  <option value="websites">websites</option>
+                </select>
+              </label>
+              <label>Slug (URL segment, auto if empty)
+                <input id="blog-slug" type="text" placeholder="my-new-article" />
+              </label>
+              <label>Excerpt / summary
+                <input id="blog-excerpt" type="text" placeholder="One-line summary shown in listings" />
+              </label>
+              <label class="full">Body (HTML allowed)
+                <textarea id="blog-body" class="editor tall" spellcheck="false"
+                  placeholder="&lt;p&gt;Write your post here. You can use HTML.&lt;/p&gt;"></textarea>
+              </label>
+            </div>
+            <div class="row between">
+              <span class="muted small" id="blog-preview-path"></span>
+              <button class="btn btn-primary" id="blog-create">Publish post</button>
+            </div>
+            <div id="blog-status" class="status-line" hidden></div>
+          </div>
+
+          <!-- DEPLOY -->
+          <div class="panel" id="panel-deploy">
+            <div class="panel-head">
+              <h2>Deploy &amp; Commit History</h2>
+              <div class="row">
+                <button class="btn btn-ghost" id="deploy-refresh">Refresh</button>
+                <button class="btn btn-primary" id="deploy-trigger">Run deploy workflow</button>
+              </div>
+            </div>
+            <p class="muted small">
+              Pushing to <code>main</code> deploys automatically. Use “Run deploy workflow” to
+              re-trigger the GitHub Pages build on demand.
+            </p>
+            <ul id="commit-list" class="commit-list"></ul>
+            <div id="deploy-status" class="status-line" hidden></div>
+          </div>
+
+          <!-- SETTINGS -->
+          <div class="panel" id="panel-settings">
+            <div class="panel-head"><h2>Settings</h2></div>
+            <div class="setting-row">
+              <span>Admin username</span><code>admin</code>
+            </div>
+            <div class="setting-row">
+              <span>Console theme</span>
+              <button class="btn btn-ghost" id="theme-toggle">Toggle light / dark</button>
+            </div>
+            <div class="setting-row">
+              <span>Repository</span><code id="settings-repo">tech-salman/ezoi.me @ main</code>
+            </div>
+            <div class="setting-row danger">
+              <div>
+                <strong>Security note (read this)</strong>
+                <p class="muted small">
+                  This is a <strong>static-only</strong> console — there is no server. The login runs
+                  entirely in your browser (PBKDF2 of your password), and the password hash is
+                  visible in <code>admin.js</code>. That means this gate is
+                  <strong>obfuscation, not real authentication</strong>: anyone who can fetch
+                  <code>/admin/</code> can attempt the password offline.
+                </p>
+                <p class="muted small">
+                  What IS real protection here: (1) the GitHub token lives only in this tab's memory
+                  and is sent only to <code>api.github.com</code>; (2) a strict CSP blocks injected
+                  scripts from exfiltrating that token; (3) a 30-min idle timeout and a 5-attempt /
+                  15-min lockout slow casual guessing. For genuine protection, put a real gate in
+                  front of <code>/admin/</code> at the edge (see <code>admin/SECURITY.md</code>).
+                </p>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <div id="toast" class="toast" hidden></div>
+
+    <script src="admin.js"></script>
+  </body>
+</html>
