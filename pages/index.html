@@ -59,9 +59,29 @@
     }
     .domain-btn:hover { transform: scale(1.08); box-shadow: 0 12px 30px rgba(32, 215, 255, 0.5); }
   </style>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="/favicon.svg" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <meta name="theme-color" content="#060814" />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+  <meta name="author" content="Muhammad Salman Nadeem" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[
+    {"@type":"CollectionPage","name":"My Domains","url":"https://ezoi.me/pages/","description":"Explore digital domains and web presences owned by Muhammad Salman Nadeem.","isPartOf":{"@type":"WebSite","name":"Muhammad Salman Nadeem Portfolio","url":"https://ezoi.me/"},"author":{"@type":"Person","name":"Muhammad Salman Nadeem","url":"https://ezoi.me/"}},
+    {"@type":"BreadcrumbList","itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://ezoi.me/"},
+      {"@type":"ListItem","position":2,"name":"My Domains","item":"https://ezoi.me/pages/"}]}
+  ]}
+  </script>
 </head>
 <body>
   <div class="bg-grid" aria-hidden="true"></div>
+  <div id="scroll-progress" aria-hidden="true"></div>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false">☀</button>
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
   
   <button class="menu-toggle" type="button" aria-label="Open navigation menu">☰</button>
   <div class="menu-overlay" hidden></div>
@@ -110,35 +130,7 @@
       </div>
     </div>
   </div>
-
-  <script>
-    const menuToggle = document.querySelector(".menu-toggle");
-    const sidebarMenu = document.getElementById("sidebar-menu");
-    const menuOverlay = document.querySelector(".menu-overlay");
-
-    const closeMenu = () => {
-      sidebarMenu.classList.remove("is-open");
-      menuOverlay.hidden = true;
-      menuToggle.setAttribute("aria-expanded", "false");
-      sidebarMenu.setAttribute("aria-hidden", "true");
-    };
-
-    const openMenu = () => {
-      sidebarMenu.classList.add("is-open");
-      menuOverlay.hidden = false;
-      menuToggle.setAttribute("aria-expanded", "true");
-      sidebarMenu.setAttribute("aria-hidden", "false");
-    };
-
-    menuToggle.addEventListener("click", () => {
-      sidebarMenu.classList.contains("is-open") ? closeMenu() : openMenu();
-    });
-
-    menuOverlay.addEventListener("click", closeMenu);
-    window.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && sidebarMenu.classList.contains("is-open")) closeMenu();
-    });
-  </script>
+  <script src="/js/app.js" defer></script>
 </body>
 </html>
  

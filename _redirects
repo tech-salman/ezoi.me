@@ -1,13 +1,40 @@
-# URL map: retired tool URLs from the previous portfolio build.
-# These tools were removed; requests are mapped to the replacement experience.
-# Format: <from> <to> <status>
-/tools/word-counter      /tools/ 301
-/tools/case-converter    /tools/ 301
-/tools/base64            /tools/ 301
-/tools/json-formatter    /tools/ 301
-/tools/url-encoder       /tools/ 301
-/tools/password-generator /tools/ 301
-/tools/color-converter   /tools/ 301
-/tools/timestamp-converter /tools/ 301
-/tools/text-diff         /tools/ 301
-/tools/lorem-ipsum       /tools/ 301
+# URL map for ezoi.me — retired paths -> live destinations (301).
+# Netlify/Cloudflare read this file; GitHub Pages uses 404.html JS fallback.
+
+# Retired standalone tools
+/tools/word-counter             /tools/ 301
+/tools/case-converter           /tools/ 301
+/tools/base64                   /tools/ 301
+/tools/json-formatter           /tools/ 301
+/tools/url-encoder              /tools/ 301
+/tools/password-generator       /tools/ 301
+/tools/color-converter          /tools/ 301
+/tools/timestamp-converter      /tools/ 301
+/tools/text-diff                /tools/ 301
+/tools/lorem-ipsum              /tools/ 301
+
+# Retired query-style filter pages (pre-clean build)
+/tools/tools/_q_category_e_ai-and-machine-learning /tools/ai-and-machine-learning/ 301
+/tools/tools/_q_category_e_cloud-and-hosting   /tools/cloud-and-hosting/ 301
+/tools/tools/_q_category_e_design-and-creative /tools/design-and-creative/ 301
+/tools/tools/_q_category_e_development-tools   /tools/development-tools/ 301
+/tools/tools/_q_category_e_food-and-dining     /tools/food-and-dining/ 301
+/tools/tools/_q_category_e_health-and-wellness /tools/health-and-wellness/ 301
+/tools/tools/_q_category_e_learning-and-education /tools/learning-and-education/ 301
+/tools/tools/_q_category_e_marketing-and-growth /tools/marketing-and-growth/ 301
+/tools/tools/_q_category_e_media-and-entertainment /tools/media-and-entertainment/ 301
+/tools/tools/_q_category_e_productivity        /tools/productivity/ 301
+/tools/tools/_q_category_e_science-and-research /tools/science-and-research/ 301
+/tools/tools/_q_category_e_security-and-privacy /tools/security-and-privacy/ 301
+/tools/tools/_q_category_e_shopping-and-lifestyle /tools/shopping-and-lifestyle/ 301
+/tools/tools/_q_category_e_student-memberships /tools/student-memberships/ 301
+/tools/tools/_q_category_e_travel-and-finance  /tools/travel-and-finance/ 301
+/tools/tools/_q_category_e_github              /tools/development-tools/ 301
+/tools/tools/_q_focus_e_Azure                  /tools/offer/microsoft-azure/ 301
+/tools/tools/_q_focus_e_Google-20Cloud         /tools/cloud-and-hosting/ 301
+/tools/tools/_q_q_e_Amazon-Prime               /tools/offer/amazon-prime/ 301
+/tools/tools/_q_q_e_Apple-Education            /tools/offer/apple-education/ 301
+/tools/tools/_q_q_e_Microsoft-365              /tools/offer/microsoft-365/ 301
+/tools/tools/_q_q_e_Perplexity-Pro             /tools/tools/ 301
+/tools/tools/_q_q_e_Spotify                    /tools/offer/spotify-premium-student/ 301
+

@@ -1,11 +1,13 @@
 /* Service Worker: offline shell + runtime asset cache (stale-while-revalidate) */
-const CACHE = "ezoi-cache-v1";
+const CACHE = "ezoi-cache-v2";
 const CORE = [
   "/",
   "/index.html",
   "/styles.css",
   "/js/app.js",
-  "/manifest.webmanifest"
+  "/manifest.webmanifest",
+  "/favicon.svg",
+  "/offline.html"
 ];
 
 self.addEventListener("install", (event) => {
@@ -41,7 +43,7 @@ self.addEventListener("fetch", (event) => {
           return res;
         })
         .catch(() => cached);
-      return cached || network;
+      return cached || network.then((r) => r || caches.match("/offline.html"));
     })
   );
 });
