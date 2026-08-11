@@ -1,1 +1,2 @@
-hello from local admin panel
+edited line 1
+edited line 2
