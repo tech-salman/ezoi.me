@@ -1,5 +1,5 @@
 # Deploy static content to GitHub Pages (Actions mode).
-#
+# 
 # This repo's Pages is in "build_type: workflow" mode, meaning it serves only
 # from GitHub Actions deployments (not directly from the branch). This workflow
 # builds the artifact and publishes it via actions/deploy-pages.
