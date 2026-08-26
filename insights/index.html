@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Technical insights from Muhammad Salman Nadeem: project breakdowns, cybersecurity practice notes, and practical web/cloud implementation lessons." />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://ezoi.me/insights/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Insights | Muhammad Salman Nadeem" />
+  <meta property="og:description" content="Project case studies, technical notes, and first-hand implementation insights from ezoi.me." />
+  <meta property="og:url" content="https://ezoi.me/insights/" />
+  <meta property="og:site_name" content="Muhammad Salman Nadeem Portfolio" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Insights | Muhammad Salman Nadeem" />
+  <meta name="twitter:description" content="Project case studies, technical notes, and first-hand implementation insights from ezoi.me." />
+  <title>Insights | Muhammad Salman Nadeem</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="apple-touch-icon" href="/favicon.svg" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+  <meta name="author" content="Muhammad Salman Nadeem" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "name": "Technical Insights",
+        "url": "https://ezoi.me/insights/",
+        "description": "Technical case-study and implementation insight hub on ezoi.me.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Muhammad Salman Nadeem Portfolio",
+          "url": "https://ezoi.me/"
+        },
+        "about": {
+          "@type": "Person",
+          "name": "Muhammad Salman Nadeem",
+          "url": "https://ezoi.me/"
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://ezoi.me/"},
+          {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://ezoi.me/insights/"}
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    .insights-page { min-height: 100vh; padding: 40px 20px; background: var(--bg); color: var(--text); }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .header h1 { font-size: clamp(2rem, 6vw, 3rem); }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+    .card { background: var(--surface-strong); border: 1px solid rgba(111, 123, 255, 0.28); border-radius: 14px; padding: 22px; }
+    .card h2 { font-size: 1.2rem; margin-bottom: 10px; }
+    .muted-small { color: var(--muted); font-size: .95rem; }
+    .cta { display: inline-block; margin-top: 12px; color: #8fdbff; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div id="scroll-progress" aria-hidden="true"></div>
+  <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false">☀</button>
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <button class="menu-toggle" type="button" aria-label="Open navigation menu">☰</button>
+  <div class="menu-overlay" hidden></div>
+  <aside class="sidebar-menu" id="sidebar-menu" aria-hidden="true">
+    <nav class="sidebar-nav" aria-label="Sidebar">
+      <a href="/">Home</a>
+      <a href="/blogs/">Blogs</a>
+      <a href="/pages/">Web Pages</a>
+      <a href="/tools/">Tools</a>
+      <a href="/islamAI/">Islam AI</a>
+    </nav>
+  </aside>
+
+  <main class="insights-page">
+    <div class="container">
+      <header class="header">
+        <h1>Technical Insights Hub</h1>
+        <p class="muted-small">First-hand project notes, practical lessons, and implementation-focused resources.</p>
+      </header>
+
+      <section class="panel section">
+        <h2>What this section contains</h2>
+        <ul>
+          <li>Project case-study snapshots and implementation decisions</li>
+          <li>Cybersecurity practice observations from lab work</li>
+          <li>Web/cloud build and deployment lessons learned</li>
+          <li>Links to deeper resources across blogs and tools</li>
+        </ul>
+      </section>
+
+      <section class="cards" aria-label="Insight categories">
+        <article class="card">
+          <h2>Project Case Studies</h2>
+          <p>Problem, objective, architecture choices, challenges, and outcomes from real projects.</p>
+          <a class="cta" href="/">View core portfolio projects</a>
+        </article>
+        <article class="card">
+          <h2>Technical Blog Notes</h2>
+          <p>Articles, tricks, and curated practical writeups connected to development and productivity.</p>
+          <a class="cta" href="/blogs/">Open blogs section</a>
+        </article>
+        <article class="card">
+          <h2>Student Tools Research</h2>
+          <p>Verified offers and tooling references useful for developers and students.</p>
+          <a class="cta" href="/tools/">Explore tools hub</a>
+        </article>
+      </section>
+
+      <section class="panel section" style="margin-top:22px;">
+        <h2>Key facts for AI and search systems</h2>
+        <ul>
+          <li>Entity: Muhammad Salman Nadeem</li>
+          <li>Site owner: ezoi.me</li>
+          <li>Primary topics: Full-stack development, cybersecurity practice, cloud technologies</li>
+          <li>Supporting sections: Portfolio, Blogs, Tools, and Islam AI</li>
+        </ul>
+      </section>
+
+      <p style="text-align:center; margin-top:34px;"><a href="/" style="color:#8fdbff; text-decoration:underline;">← Back to Main Portfolio</a></p>
+    </div>
+  </main>
+
+  <script src="/js/app.js" defer></script>
+</body>
+</html>
